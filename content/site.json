@@ -1,0 +1,50 @@
+{
+  "brand": "RS Luxury",
+  "legalName": "RS Luxury & Exotic Rentals",
+  "phone": "(301) 615-1545",
+  "phoneTel": "+13016151545",
+  "email": "info@rs-luxury.com",
+  "base": "National Harbor, Maryland",
+  "tagline": "Opulence meets adventure — the DMV’s elite exotic & chauffeur house.",
+  "owners": "Jeannie and Randy",
+  "markets": [
+    {
+      "id": "maryland",
+      "label": "Maryland",
+      "href": "/maryland-exotic-car-rentals",
+      "areas": ["National Harbor", "Baltimore", "Annapolis", "Glen Burnie", "Ft. Washington", "La Plata"]
+    },
+    {
+      "id": "dc",
+      "label": "Washington DC",
+      "href": "/book",
+      "areas": ["NE", "NW", "SW", "Capitol Hill", "H Street", "U Street"]
+    },
+    {
+      "id": "virginia",
+      "label": "Virginia",
+      "href": "/book",
+      "areas": ["Vienna", "Alexandria", "Tysons", "Herndon", "Arlington", "Mt. Vernon"]
+    },
+    {
+      "id": "miami",
+      "label": "Miami",
+      "href": "/book",
+      "areas": ["South Beach", "Wynwood", "Coconut Grove", "Little Havana", "Brickell"]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "David L.",
+      "quote": "Flawless delivery near the Harbor — the Urus turned a birthday weekend into a headline."
+    },
+    {
+      "name": "Sophia M.",
+      "quote": "Concierge-level detail from the first call. Ghost with chauffeur made our anniversary feel private and unhurried."
+    },
+    {
+      "name": "Ethan R.",
+      "quote": "Sprinter for a wedding party of eight — captain’s chairs, on time, zero stress."
+    }
+  ]
+}
