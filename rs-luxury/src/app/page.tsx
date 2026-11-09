@@ -54,32 +54,34 @@ export default function HomePage() {
       </section>
 
       <section className="mx-auto grid max-w-7xl gap-8 px-5 py-20 md:grid-cols-3 md:px-8">
-        {[
-          {
-            title: "Exotics",
-            copy: "2023 Rolls-Royce Ghost, Wraith, and Cullinan Black Badge, plus Bentley Bentayga, Aston Martin DB11, and McLaren GT.",
-            href: "/maryland-exotic-car-rentals",
-            image: "/images/rs/lifestyle/urus-mansion-matte.jpg",
-          },
-          {
-            title: "Sprinters",
-            copy: "Presidential Mercedes-Benz Sprinters with six captain’s chairs, ultimate layouts, executive climate, and RV-type bathrooms.",
-            href: "/sprinter-vans",
-            image: "/images/rs/sprinter-hi.jpg",
-          },
-          {
-            title: "Chauffeur",
-            copy: "Elite chauffeur for executive travel, weddings, red-carpet events, and secure transit across the DMV and Miami.",
-            href: "/luxury-chauffeur-service",
-            image: "/images/rs/cabin-star.webp",
-          },
-        ].map((item) => (
+        {(
+          [
+            {
+              title: "Exotics",
+              copy: "2023 Rolls-Royce Ghost, Wraith, and Cullinan Black Badge, plus Bentley Bentayga, Aston Martin DB11, and McLaren GT.",
+              href: "/maryland-exotic-car-rentals",
+              image: "/images/rs/lifestyle/urus-mansion-matte.jpg",
+            },
+            {
+              title: "Sprinters",
+              copy: "Presidential Mercedes-Benz Sprinters with six captain’s chairs, ultimate layouts, executive climate, and RV-type bathrooms.",
+              href: "/sprinter-vans",
+              image: "/images/rs/img0208.jpg",
+            },
+            {
+              title: "Chauffeur",
+              copy: "Elite chauffeur for executive travel, weddings, red-carpet events, and secure transit across the DMV and Miami.",
+              href: "/luxury-chauffeur-service",
+              image: "/images/rs/cabin-star.webp",
+            },
+          ] as const
+        ).map((item) => (
           <Link
             key={item.title}
             href={item.href}
             className="group overflow-hidden border border-ink-line bg-paper shadow-sm transition hover:border-signal/40"
           >
-            <div className="relative aspect-[5/3]">
+            <div className="relative aspect-[5/3] bg-gradient-to-br from-ink-soft to-paper">
               <Image
                 src={item.image}
                 alt={item.title}

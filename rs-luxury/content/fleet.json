@@ -13,7 +13,7 @@
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
-    "image": "/images/rs/lifestyle/cullinan-white-mansion.jpg",
+    "image": "/images/rs/lifestyle/cullinan-miami-coastal.jpg",
     "imageKind": "photo",
     "photoQuality": "supporting",
     "tags": [
@@ -24,7 +24,8 @@
     ],
     "passengers": 5,
     "drive": "either",
-    "gallery": []
+    "gallery": [],
+    "photoNote": "Reference photo — QC-approved brightness/composition pending final unit shot."
   },
   {
     "id": "lamborghini-urus-widebody",
@@ -71,7 +72,7 @@
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
-    "image": "/images/rs/lifestyle/ghost-mansion-black.jpg",
+    "image": "/images/rs/ghost-shop.jpg",
     "tags": [
       "sedan",
       "chauffeur-ready",
@@ -80,10 +81,9 @@
     ],
     "passengers": 4,
     "drive": "either",
-    "photoQuality": "supporting",
+    "photoQuality": "archive",
     "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate.",
     "gallery": [],
-    "imageKind": "photo",
     "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch."
   },
   {
@@ -126,7 +126,7 @@
     "dailyRate": 1300,
     "rateStatus": "archive_confirmed",
     "includedMiles": null,
-    "image": "/images/rs/lifestyle/cullinan-miami-coastal.jpg",
+    "image": "/images/rs/lifestyle/cullinan-black-modern-house.jpg",
     "imageKind": "photo",
     "tags": [
       "suv",
@@ -153,7 +153,7 @@
     "dailyRate": 2000,
     "rateStatus": "archive_confirmed",
     "includedMiles": null,
-    "image": "/images/rs/lifestyle/cullinan-black-modern-house.jpg",
+    "image": "/images/rs/segments/rolls-royce-cullinan-black-badge.jpg",
     "imageKind": "photo",
     "tags": [
       "suv",
@@ -164,7 +164,7 @@
     "passengers": 5,
     "drive": "either",
     "photoQuality": "supporting",
-    "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch.",
+    "photoNote": "Segment cutout — awaiting final unit photography. Dark AI lifestyle shots quarantined.",
     "gallery": []
   },
   {
@@ -329,7 +329,7 @@
     "drive": "chauffeur",
     "photoQuality": "brand-mark",
     "imageKind": "brand-mark",
-    "photoNote": "Unique Sprinter photography reserved for the Sprinter page — inquire for unit photos."
+    "photoNote": "Photo QC hold — broken/dark AI or duplicate shots removed. Awaiting clean unit photo."
   },
   {
     "id": "sprinter-ultimate",
@@ -359,7 +359,7 @@
     "drive": "chauffeur",
     "photoQuality": "brand-mark",
     "imageKind": "brand-mark",
-    "photoNote": "Awaiting unique Sprinter unit photo — not reusing other vehicles’ images."
+    "photoNote": "Photo QC hold — broken/dark AI or duplicate shots removed. Awaiting clean unit photo."
   },
   {
     "id": "sprinter-executive",
@@ -387,7 +387,7 @@
     "photoQuality": "brand-mark",
     "imageKind": "brand-mark",
     "gallery": [],
-    "photoNote": "Awaiting unique Sprinter unit photo — not reusing other vehicles’ images."
+    "photoNote": "Photo QC hold — broken/dark AI or duplicate shots removed. Awaiting clean unit photo."
   },
   {
     "id": "rolls-royce-spectre",

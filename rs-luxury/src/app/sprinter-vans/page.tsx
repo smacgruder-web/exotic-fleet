@@ -15,22 +15,23 @@ export default function SprinterPage() {
 
   return (
     <>
-      <section className="relative min-h-[70svh] overflow-hidden">
+      <section className="relative min-h-[70svh] overflow-hidden bg-ink-soft">
+        {/* Only clean bright Sprinter interior available after QC — no dark exterior with open door */}
         <Image
-          src="/images/rs/sprinter-shop.jpg"
-          alt="RS Luxury Mercedes-Benz Sprinter"
+          src="/images/rs/lifestyle/bentayga-castle-green.jpg"
+          alt=""
           fill
           priority
-          className="object-cover"
+          className="object-cover opacity-30"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-paper via-paper/80 to-paper/40" />
         <div className="relative z-10 mx-auto flex min-h-[70svh] max-w-7xl flex-col justify-end px-5 pb-16 md:px-8">
-          <p className="font-display text-5xl text-white drop-shadow-sm md:text-6xl">RS Luxury</p>
-          <h1 className="mt-3 text-xl uppercase tracking-[0.16em] text-white md:text-2xl">
+          <p className="font-display text-5xl text-ink md:text-6xl">RS Luxury</p>
+          <h1 className="mt-3 text-xl uppercase tracking-[0.16em] text-ink md:text-2xl">
             Luxury Sprinter vans
           </h1>
-          <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/95 md:text-base">
+          <p className="mt-4 max-w-xl text-sm leading-relaxed text-mist md:text-base">
             Presidential Mercedes-Benz Sprinters with six captain’s chairs, ultimate luxury
             layouts, executive climate systems, and RV-type bathrooms — built for
             long-distance comfort, weddings, executive travel, and secure group transit.
@@ -44,7 +45,7 @@ export default function SprinterPage() {
             </Link>
             <a
               href={`tel:${site.phoneTel}`}
-              className="border border-white/70 bg-white/15 px-6 py-3 text-[0.75rem] uppercase tracking-[0.18em] text-white backdrop-blur-sm"
+              className="border border-ink-line px-6 py-3 text-[0.75rem] uppercase tracking-[0.18em] text-ink"
             >
               {site.phone}
             </a>
@@ -53,7 +54,7 @@ export default function SprinterPage() {
       </section>
 
       <section className="mx-auto grid max-w-7xl gap-8 px-5 py-14 md:grid-cols-2 md:px-8">
-        <div className="relative aspect-[4/3] overflow-hidden border border-ink-line">
+        <div className="relative aspect-[4/3] overflow-hidden border border-ink-line bg-paper">
           <Image
             src="/images/rs/img0208.jpg"
             alt="Sprinter captain’s chairs interior"
