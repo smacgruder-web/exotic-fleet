@@ -10,7 +10,7 @@ import { fleet, getExotics, site } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Maryland Exotic Car Rentals",
   description:
-    "RS Luxury Maryland exotic car rentals from National Harbor — Rolls-Royce Cullinan, Lamborghini Urus, Ghost, Bentley, and more across the DMV.",
+    "RS Luxury Maryland — elite exotic and chauffeur service with 2023 Rolls-Royce models, Bentley Bentayga, Aston Martin DB11, McLaren GT, and Presidential Sprinters.",
 };
 
 export default function MarylandExoticPage() {

@@ -6,7 +6,7 @@ import { site } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Luxury Chauffeur Service",
   description:
-    "RS Luxury chauffeur service across DC, Maryland, and Virginia — optional armed chauffeur routing with human concierge confirmation.",
+    "RS Luxury elite chauffeur service across the DMV and Miami — executive travel, weddings, red-carpet events, and secure transit.",
 };
 
 export default function ChauffeurPage() {
@@ -28,8 +28,9 @@ export default function ChauffeurPage() {
             Luxury chauffeur service
           </h1>
           <p className="mt-5 max-w-xl text-sm leading-relaxed text-mist md:text-base">
-            From Ghost evenings to Sprinter airport runs, our chauffeurs keep the
-            itinerary quiet and precise across Maryland, Washington DC, and Virginia.
+            Elite chauffeur service for executive travel, weddings, red-carpet events, and
+            secure transit — pairing 2023 Rolls-Royce, Bentley, and Presidential Sprinters
+            with quiet, precise itineraries across the DMV and Miami.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link

@@ -34,8 +34,7 @@ export default function HomePage() {
             RS Luxury
           </h1>
           <p className="animate-rise mt-5 max-w-xl text-base leading-relaxed text-mist md:text-lg">
-            {site.tagline} Maryland exotic rentals, Sprinter groups, and chauffeur
-            arrivals — led by photography that belongs on the first screen.
+            {site.tagline} {site.positioning}
           </p>
           <div className="animate-rise mt-8 flex flex-wrap gap-3">
             <Link
@@ -58,19 +57,19 @@ export default function HomePage() {
         {[
           {
             title: "Exotics",
-            copy: "Cullinan, Urus, Ghost, Bentley, Aston, McLaren — National Harbor rooted, concierge confirmed.",
+            copy: "2023 Rolls-Royce Ghost, Wraith, and Cullinan Black Badge, plus Bentley Bentayga, Aston Martin DB11, and McLaren GT.",
             href: "/maryland-exotic-car-rentals",
             image: "/images/rs/cullinan-blue-garage.jpg",
           },
           {
             title: "Sprinters",
-            copy: "Presidential, Ultimate, and Executive builds with captain’s chairs and private drivers.",
+            copy: "Presidential Mercedes-Benz Sprinters with six captain’s chairs, ultimate layouts, executive climate, and RV-type bathrooms.",
             href: "/sprinter-vans",
             image: "/images/rs/img0208.jpg",
           },
           {
             title: "Chauffeur",
-            copy: "Optional chauffeur — including armed chauffeur routing — across Maryland, DC, and Virginia.",
+            copy: "Elite chauffeur for executive travel, weddings, red-carpet events, and secure transit across the DMV and Miami.",
             href: "/luxury-chauffeur-service",
             image: "/images/rs/cabin-star.webp",
           },
@@ -98,6 +97,22 @@ export default function HomePage() {
             </div>
           </Link>
         ))}
+      </section>
+
+      <section className="border-y border-ink-line bg-ink-soft/40">
+        <div className="mx-auto flex max-w-7xl flex-wrap gap-x-8 gap-y-3 px-5 py-8 md:px-8">
+          <p className="w-full text-[0.7rem] uppercase tracking-[0.28em] text-champagne md:w-auto md:self-center">
+            Tailored for
+          </p>
+          {site.occasions.map((o) => (
+            <span
+              key={o}
+              className="text-sm tracking-wide text-mist md:text-[0.95rem]"
+            >
+              {o}
+            </span>
+          ))}
+        </div>
       </section>
 
       <SpecialsBanner />

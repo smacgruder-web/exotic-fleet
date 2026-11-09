@@ -5,9 +5,9 @@ import { FleetGrid } from "@/components/FleetGrid";
 import { getSprinters, site } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Sprinter Vans",
+  title: "Luxury Sprinter Vans",
   description:
-    "RS Luxury Sprinter vans — Presidential, Ultimate, and Executive builds for weddings, airports, and DMV groups.",
+    "RS Luxury Presidential Mercedes-Benz Sprinters — six captain’s chairs, ultimate layouts, executive climate, and RV-type bathrooms for DMV executive travel and events.",
 };
 
 export default function SprinterPage() {
@@ -28,11 +28,12 @@ export default function SprinterPage() {
         <div className="relative z-10 mx-auto flex min-h-[70svh] max-w-7xl flex-col justify-end px-5 pb-16 md:px-8">
           <p className="font-display text-5xl text-silver md:text-6xl">RS Luxury</p>
           <h1 className="mt-3 text-xl uppercase tracking-[0.16em] text-white md:text-2xl">
-            Sprinter vans
+            Luxury Sprinter vans
           </h1>
           <p className="mt-4 max-w-xl text-sm leading-relaxed text-mist md:text-base">
-            Six captain’s chairs, ambient lighting, onboard restroom, refreshments, and
-            private drivers for airport, corporate, wedding, prom, and funeral transport.
+            Presidential Mercedes-Benz Sprinters with six captain’s chairs, ultimate luxury
+            layouts, executive climate systems, and RV-type bathrooms — built for
+            long-distance comfort, weddings, executive travel, and secure group transit.
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
             <Link
@@ -66,12 +67,11 @@ export default function SprinterPage() {
             Ultimate upgrades
           </p>
           <h2 className="mt-3 font-display text-4xl text-silver">
-            Refreshments. Armed drivers. Guided tours.
+            Hyper-luxury multi-passenger travel.
           </h2>
           <p className="mt-4 text-sm leading-relaxed text-mist-muted">
-            Stock beverages of choice, elevate security with a professionally trained armed
-            driver, and let our chauffeurs guide you through the nation’s capital — no extra
-            stops for public restrooms.
+            Captain’s chairs, executive climate, and RV-type bathrooms mean fewer stops and
+            more composure — with optional armed chauffeur for secure transit across the DMV.
           </p>
         </div>
       </section>

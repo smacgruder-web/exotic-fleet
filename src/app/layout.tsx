@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s · RS Luxury",
   },
   description:
-    "National Harbor–based exotic car rentals, Sprinter vans, and chauffeur service across Maryland, DC, Virginia, and Miami.",
+    "Elite exotic cars, Presidential Sprinters, and chauffeur service across the DMV and Miami — executive travel, weddings, red-carpet events, and secure transit.",
 };
 
 export default function RootLayout({

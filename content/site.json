@@ -5,13 +5,21 @@
   "phoneTel": "+13016151545",
   "email": "info@rs-luxury.com",
   "base": "National Harbor, Maryland",
-  "tagline": "Opulence meets adventure — the most elite rental service in the DMV.",
+  "tagline": "Elite transportation and chauffeur service across the DMV and Miami.",
+  "positioning": "High-end exotic cars and hyper-luxury multi-passenger vehicles for executive travel, weddings, red-carpet events, and secure transit.",
   "owners": "Jeannie and Randy",
   "logo": "/images/rs/logo.png",
   "logoLight": "/images/rs/logo-white.png",
   "heroImage": "/images/rs/cullinan-blue-garage.jpg",
   "marylandHeroImage": "/images/rs/cullinan-blue-garage.jpg",
   "accentNote": "Palette pulled from the electric-blue Cullinan hero — garage concrete + cobalt.",
+  "occasions": [
+    "Executive travel",
+    "Weddings",
+    "Red-carpet events",
+    "Secure transit",
+    "Airport transfers"
+  ],
   "markets": [
     {
       "id": "maryland",
@@ -52,6 +60,6 @@
       "quote": "Driving an Rs-Luxury exotic car in DC was a dream come true. Every moment was filled with luxury, performance, and unmatched style."
     }
   ],
-  "marylandPitch": "Embark on a journey defined by elegance and extraordinary performance. A fleet of meticulously maintained exotic cars — each a symphony of engineering excellence — curated so Maryland roads become stages, not commutes.",
-  "experiencePitch": "Our exotic cars are more than vehicles — masterpieces of engineering and luxury promising performance, comfort, and style. Each drive is a memorable adventure through the heart of Maryland and the wider DMV."
+  "marylandPitch": "Elite exotic and chauffeur service from National Harbor — Rolls-Royce, Bentley, Aston Martin, McLaren, and Presidential Sprinters for executive travel, weddings, red-carpet nights, and secure transit across Maryland and the wider DMV.",
+  "experiencePitch": "A premium fleet of high-performance exotics and hyper-luxury multi-passenger vehicles, staged with concierge detail so every arrival feels intentional — from Capitol Hill dinners to Miami chapter weekends."
 }

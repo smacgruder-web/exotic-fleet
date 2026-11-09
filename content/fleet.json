@@ -8,8 +8,8 @@
       "dc",
       "virginia"
     ],
-    "tagline": "Coach doors \u00b7 electric blue",
-    "blurb": "The Cullinan that sets the standard \u2014 electric blue, coach doors open, white leather with matching piping. The photography-first face of RS Luxury in the DMV.",
+    "tagline": "Flagship SUV · coach doors",
+    "blurb": "Rolls-Royce Cullinan — ultra-luxury SUV presence for executive arrivals, weddings, and red-carpet transit across the DMV. Electric blue garage unit featured on site; confirm current chassis and finish with concierge.",
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
@@ -35,8 +35,8 @@
       "virginia"
     ],
     "tagline": "Space and speed",
-    "blurb": "The 2021 Lamborghini Urus with a striking widebody kit \u2014 white exterior, red cabin, flared arches, and Y-shaped LED glare. National Harbor\u2019s showpiece SUV for weekends that need to be seen.",
-    "details": "Archive product story: mesmerizing white exterior as a canvas for Lamborghini\u2019s sculptural lines; widebody kit widens the stance with meticulously crafted flared wheel arches; red leather interior with carbon fiber and Alcantara accents.",
+    "blurb": "The 2021 Lamborghini Urus with a striking widebody kit — white exterior, red cabin, flared arches, and Y-shaped LED glare. National Harbor’s showpiece SUV for weekends that need to be seen.",
+    "details": "Archive product story: mesmerizing white exterior as a canvas for Lamborghini’s sculptural lines; widebody kit widens the stance with meticulously crafted flared wheel arches; red leather interior with carbon fiber and Alcantara accents.",
     "yearNote": "Product post describes a 2021 example (some list cards said 2023); confirm current chassis with concierge.",
     "dailyRate": 1700,
     "rateStatus": "archive_confirmed",
@@ -54,15 +54,15 @@
   },
   {
     "id": "rolls-royce-ghost",
-    "name": "Rolls-Royce Ghost",
+    "name": "2023 Rolls-Royce Ghost",
     "category": "exotic",
     "markets": [
       "maryland",
       "dc",
       "virginia"
     ],
-    "tagline": "Luxury and elegance",
-    "blurb": "2023 Rolls-Royce Ghost in impeccable black \u2014 handcrafted V12 presence with optional chauffeur. Pantheon grille, Spirit of Ecstasy, and a starlight cabin for ceremonial evenings.",
+    "tagline": "2023 · luxury sedan",
+    "blurb": "2023 Rolls-Royce Ghost — handcrafted V12 sedan with optional chauffeur for ceremonial evenings, executive travel, and secure transit across DC, Maryland, and Virginia.",
     "details": "Archive product story: lustrous black exterior; hand-stitched black leather; starlight headliner; wood veneers and intuitive technology. Available across DC, Maryland, and Virginia.",
     "dailyRate": null,
     "rateStatus": "price_on_request",
@@ -88,7 +88,7 @@
       "virginia"
     ],
     "tagline": "Italian grand touring",
-    "blurb": "Maserati Ghibli \u2014 Italian grand-tourer energy for city dinners and coastal drives without the ultra-SUV footprint.",
+    "blurb": "Maserati Ghibli — Italian grand-tourer energy for city dinners and coastal drives without the ultra-SUV footprint.",
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
@@ -111,7 +111,7 @@
       "miami"
     ],
     "tagline": "Miami chapter",
-    "blurb": "Cullinan tagged for the Miami chapter \u2014 South Beach through Brickell. Request transfer or local pickup with concierge.",
+    "blurb": "Cullinan tagged for the Miami chapter — South Beach through Brickell. Request transfer or local pickup with concierge.",
     "dailyRate": 1300,
     "rateStatus": "archive_confirmed",
     "includedMiles": null,
@@ -128,15 +128,15 @@
   },
   {
     "id": "rolls-royce-cullinan-black-badge",
-    "name": "Rolls-Royce Cullinan Black Badge",
+    "name": "2023 Rolls-Royce Cullinan Black Badge",
     "category": "exotic",
     "markets": [
       "maryland",
       "dc",
       "virginia"
     ],
-    "tagline": "Darker. Sharper.",
-    "blurb": "Black Badge Cullinan \u2014 darker, sharper presence for DMV arrivals that need absolute authority.",
+    "tagline": "2023 · Black Badge",
+    "blurb": "2023 Rolls-Royce Cullinan Black Badge — darker, sharper Cullinan presence for DMV arrivals that need absolute authority. Part of the exclusive Rolls-Royce lineup.",
     "dailyRate": 2000,
     "rateStatus": "archive_confirmed",
     "includedMiles": null,
@@ -161,8 +161,8 @@
       "dc",
       "virginia"
     ],
-    "tagline": "Grand tourer lines",
-    "blurb": "Aston Martin DB11 \u2014 grand-tourer lines for Annapolis evenings and open-road weekends. Elegance with a growl.",
+    "tagline": "High-performance grand tourer",
+    "blurb": "Aston Martin DB11 — exclusive high-performance grand tourer for date nights, weekends, and arrivals that need presence without an SUV footprint.",
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
@@ -178,15 +178,15 @@
   },
   {
     "id": "rolls-royce-wraith",
-    "name": "Rolls-Royce Wraith",
+    "name": "2023 Rolls-Royce Wraith",
     "category": "exotic",
     "markets": [
       "maryland",
       "dc",
       "virginia"
     ],
-    "tagline": "Coupe drama",
-    "blurb": "Rolls-Royce Wraith \u2014 coupe drama under a starlight headliner for nights when the destination is the drive.",
+    "tagline": "2023 · coupe drama",
+    "blurb": "2023 Rolls-Royce Wraith — grand-tourer coupe drama for nights when the destination is the drive. Concierge confirms availability across the DMV.",
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
@@ -210,7 +210,7 @@
       "virginia"
     ],
     "tagline": "Ultra-luxury SUV",
-    "blurb": "Bentley Bentayga \u2014 ultra-luxury SUV space for four with the finish of a private lounge.",
+    "blurb": "Bentley Bentayga — ultra-luxury SUV for executive travel and chauffeur-ready group presence with private-lounge finish.",
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
@@ -234,7 +234,7 @@
       "virginia"
     ],
     "tagline": "Grand touring posture",
-    "blurb": "Bentley Continental GT V8 S \u2014 grand touring posture for DC dinners and weekend coastal loops.",
+    "blurb": "Bentley Continental GT V8 S — grand touring posture for DC dinners and weekend coastal loops.",
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
@@ -257,8 +257,8 @@
       "dc",
       "virginia"
     ],
-    "tagline": "National Harbor collection",
-    "blurb": "McLaren GT from the National Harbor collection \u2014 dihedral drama and grand-tourer pace. Confirm availability with concierge before quoting.",
+    "tagline": "Exotic performance",
+    "blurb": "McLaren GT — exotic performance from the elite fleet. Confirm availability with concierge before quoting.",
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
@@ -273,20 +273,19 @@
     ],
     "passengers": 2,
     "drive": "self",
-    "inventoryStatus": "candidate",
     "photoQuality": "archive"
   },
   {
     "id": "sprinter-presidential",
-    "name": "Luxury Presidential Sprinter",
+    "name": "Presidential Mercedes-Benz Sprinter",
     "category": "sprinter",
     "markets": [
       "maryland",
       "dc",
       "virginia"
     ],
-    "tagline": "Captain\u2019s chairs \u00b7 group luxury",
-    "blurb": "Presidential Sprinter build with six captain\u2019s chairs, ambient lighting, and room for the whole party \u2014 airport runs to weddings.",
+    "tagline": "Six captain’s chairs · hyper-luxury",
+    "blurb": "Presidential Mercedes-Benz Sprinter with six captain’s chairs, ultimate luxury layout, executive climate systems, and RV-type bathroom comfort for long-distance executive travel, weddings, and group transit.",
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
@@ -307,15 +306,15 @@
   },
   {
     "id": "sprinter-ultimate",
-    "name": "Ultimate Sprinter Van",
+    "name": "Ultimate Luxury Sprinter",
     "category": "sprinter",
     "markets": [
       "maryland",
       "dc",
       "virginia"
     ],
-    "tagline": "Quality corporate transport",
-    "blurb": "2021 Ultimate Mercedes-Benz Sprinter for events and family use \u2014 six plush captain\u2019s chairs, entertainment, onboard restroom, refreshments, optional armed drivers, and guided DMV tours.",
+    "tagline": "Ultimate layout · onboard restroom",
+    "blurb": "Ultimate luxury Sprinter layout for events and extended itineraries — plush seating, entertainment, onboard restroom, refreshments, and optional armed chauffeur for secure DMV transit.",
     "details": "Archive product story: bar removed for more seating; private bathroom with elbow room; stocked beverage service; common uses include airport, corporate, wedding, prom, and funeral transport.",
     "dailyRate": null,
     "rateStatus": "price_on_request",
@@ -338,15 +337,15 @@
   },
   {
     "id": "sprinter-executive",
-    "name": "Executive AC Sprinter",
+    "name": "Executive Climate Sprinter",
     "category": "sprinter",
     "markets": [
       "maryland",
       "dc",
       "virginia"
     ],
-    "tagline": "Climate-controlled executive",
-    "blurb": "Executive climate-controlled Sprinter for corporate shuttles and multi-stop days across the DMV.",
+    "tagline": "Executive climate systems",
+    "blurb": "Executive climate-controlled Sprinter for corporate shuttles, airport runs, and multi-stop executive days across the DMV.",
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
