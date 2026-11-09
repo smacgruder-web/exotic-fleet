@@ -1,0 +1,26 @@
+{
+  "loyalty": {
+    "enabled": true,
+    "label": "RS Returning Guest",
+    "discountPercent": 10,
+    "copy": "Returning guests receive 10% off confirmed rentals when loyalty is applied at booking."
+  },
+  "holiday": {
+    "enabled": true,
+    "label": "Holiday Escape",
+    "discountPercent": 10,
+    "gift": "champagne",
+    "giftLabel": "complimentary champagne",
+    "copy": "Holiday bookings: 10% off plus complimentary champagne on delivery (subject to availability)."
+  },
+  "birthdayAnniversary": {
+    "enabled": true,
+    "label": "Birthday & Anniversary",
+    "discountPercent": 10,
+    "gift": "flowers_or_champagne",
+    "giftLabel": "gift flowers or champagne",
+    "copy": "Celebrate with 10% off and your choice of gift flowers or champagne — tell us which in the booking notes."
+  },
+  "defaultGiftOptions": ["flowers", "champagne", "none"],
+  "disclaimer": "Specials are concierge-confirmed. Archive rates and offers may change; final pricing is confirmed by phone or email before payment."
+}

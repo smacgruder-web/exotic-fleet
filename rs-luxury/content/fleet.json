@@ -1,0 +1,479 @@
+[
+  {
+    "id": "rolls-royce-cullinan",
+    "name": "Rolls-Royce Cullinan",
+    "category": "exotic",
+    "markets": [
+      "maryland",
+      "dc",
+      "virginia"
+    ],
+    "tagline": "Coach doors · electric blue",
+    "blurb": "Rolls-Royce Cullinan — ultra-luxury SUV presence for executive arrivals, weddings, and red-carpet transit. Featured electric-blue garage unit; confirm finish and availability. Fleet sheet also lists Cullinan (Miami) and Cullinan Black Badge.",
+    "dailyRate": null,
+    "rateStatus": "price_on_request",
+    "includedMiles": null,
+    "image": "/images/rs/cullinan-blue-garage.jpg",
+    "imageKind": "photo",
+    "photoQuality": "hero",
+    "tags": [
+      "suv",
+      "chauffeur-ready",
+      "anniversary",
+      "weekend"
+    ],
+    "passengers": 5,
+    "drive": "either"
+  },
+  {
+    "id": "lamborghini-urus-widebody",
+    "name": "Lamborghini Urus (Widebody Kit)",
+    "category": "exotic",
+    "markets": [
+      "maryland",
+      "dc",
+      "virginia"
+    ],
+    "tagline": "2023 · widebody SUV",
+    "blurb": "Unleash the 2023 Lamborghini Urus — a breathtaking fusion of robust SUV functionality and supercar spirit. Its widebody kit promises an enhanced driving experience and a dramatic road presence.",
+    "details": "Archive product story: mesmerizing white exterior as a canvas for Lamborghini’s sculptural lines; widebody kit widens the stance with meticulously crafted flared wheel arches; red leather interior with carbon fiber and Alcantara accents.",
+    "yearNote": "Fleet sheet lists 2023; earlier product post referenced a 2021 example. Confirm current chassis with concierge.",
+    "dailyRate": 1700,
+    "rateStatus": "archive_confirmed",
+    "includedMiles": 100,
+    "image": "/images/rs/lifestyle/urus-coastal-gunmetal.jpg",
+    "tags": [
+      "suv",
+      "self-drive",
+      "weekend",
+      "anniversary"
+    ],
+    "passengers": 5,
+    "drive": "self",
+    "photoQuality": "supporting",
+    "gallery": [
+      "/images/rs/lifestyle/urus-coastal-gunmetal.jpg",
+      "/images/rs/lifestyle/urus-mansion-matte.jpg",
+      "/images/rs/urus-shop.jpg"
+    ],
+    "imageKind": "photo",
+    "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch."
+  },
+  {
+    "id": "rolls-royce-ghost",
+    "name": "2023 Rolls-Royce Ghost",
+    "category": "exotic",
+    "markets": [
+      "maryland",
+      "dc",
+      "virginia"
+    ],
+    "tagline": "2023 · luxury personified",
+    "blurb": "The 2023 Rolls-Royce Ghost is luxury personified. Crafted for those who appreciate the finer things, it promises a sublime journey marked by elegance and comfort, turning every ride into a special occasion.",
+    "details": "Archive product story: lustrous black exterior; hand-stitched black leather; starlight headliner; wood veneers and intuitive technology. Available across DC, Maryland, and Virginia.",
+    "dailyRate": null,
+    "rateStatus": "price_on_request",
+    "includedMiles": null,
+    "image": "/images/rs/lifestyle/ghost-night-city.jpg",
+    "tags": [
+      "sedan",
+      "chauffeur-ready",
+      "wedding",
+      "corporate"
+    ],
+    "passengers": 4,
+    "drive": "either",
+    "photoQuality": "supporting",
+    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate.",
+    "gallery": [
+      "/images/rs/lifestyle/ghost-night-city.jpg",
+      "/images/rs/lifestyle/ghost-mansion-black.jpg",
+      "/images/rs/ghost-shop.jpg"
+    ],
+    "imageKind": "photo",
+    "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch."
+  },
+  {
+    "id": "maserati-ghibli",
+    "name": "2023 Maserati Ghibli",
+    "category": "exotic",
+    "markets": [
+      "maryland",
+      "dc",
+      "virginia"
+    ],
+    "tagline": "2023 · Italian elegance",
+    "blurb": "The 2023 Maserati Ghibli embodies Italian elegance and powerful performance. Meticulous design and compelling presence make every journey a captivating tale of style and performance.",
+    "dailyRate": null,
+    "rateStatus": "price_on_request",
+    "includedMiles": null,
+    "image": "/images/rs/lifestyle/ghibli-coastal-blue.jpg",
+    "imageKind": "photo",
+    "tags": [
+      "sedan",
+      "self-drive",
+      "date-night"
+    ],
+    "passengers": 4,
+    "drive": "self",
+    "photoQuality": "supporting",
+    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate.",
+    "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch.",
+    "gallery": [
+      "/images/rs/lifestyle/ghibli-coastal-blue.jpg",
+      "/images/rs/lifestyle/ghibli-mansion-blue.jpg"
+    ]
+  },
+  {
+    "id": "rolls-royce-cullinan-miami",
+    "name": "2023 Rolls-Royce Cullinan (Miami)",
+    "category": "exotic",
+    "markets": [
+      "miami"
+    ],
+    "tagline": "2023 · Miami chapter",
+    "blurb": "Explore Miami in the epitome of luxury with the 2023 Rolls-Royce Cullinan. Exquisite craftsmanship and robust elegance make every journey an event of unmatched sophistication.",
+    "dailyRate": 1300,
+    "rateStatus": "archive_confirmed",
+    "includedMiles": null,
+    "image": "/images/rs/lifestyle/cullinan-miami-doors-sunset.jpg",
+    "imageKind": "photo",
+    "tags": [
+      "suv",
+      "miami",
+      "chauffeur-ready"
+    ],
+    "passengers": 5,
+    "drive": "either",
+    "photoQuality": "supporting",
+    "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch.",
+    "gallery": [
+      "/images/rs/lifestyle/cullinan-miami-doors-sunset.jpg",
+      "/images/rs/lifestyle/cullinan-miami-coastal.jpg",
+      "/images/rs/lifestyle/cullinan-white-mansion.jpg",
+      "/images/rs/lifestyle/cullinan-miami-doors-alt.jpg"
+    ]
+  },
+  {
+    "id": "rolls-royce-cullinan-black-badge",
+    "name": "2023 Rolls-Royce Cullinan Black Badge",
+    "category": "exotic",
+    "markets": [
+      "maryland",
+      "dc",
+      "virginia"
+    ],
+    "tagline": "2023 · Black Badge",
+    "blurb": "Experience ultimate luxury in the 2023 Rolls-Royce Cullinan Black Badge — sophistication and formidable power that redefines extraordinary journeys with bold presence and remarkable performance.",
+    "dailyRate": 2000,
+    "rateStatus": "archive_confirmed",
+    "includedMiles": null,
+    "image": "/images/rs/lifestyle/cullinan-black-night-urban.jpg",
+    "imageKind": "photo",
+    "tags": [
+      "suv",
+      "black-badge",
+      "weekend",
+      "anniversary"
+    ],
+    "passengers": 5,
+    "drive": "either",
+    "photoQuality": "supporting",
+    "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch.",
+    "gallery": [
+      "/images/rs/lifestyle/cullinan-black-night-urban.jpg",
+      "/images/rs/lifestyle/cullinan-black-modern-house.jpg"
+    ]
+  },
+  {
+    "id": "aston-martin-db11",
+    "name": "2023 Aston Martin DB11",
+    "category": "exotic",
+    "markets": [
+      "maryland",
+      "dc",
+      "virginia"
+    ],
+    "tagline": "2023 · grand touring",
+    "blurb": "Discover the thrill of the 2023 Aston Martin DB11 — a masterpiece of design and performance blending grand touring capability and agility for unforgettable journeys.",
+    "dailyRate": null,
+    "rateStatus": "price_on_request",
+    "includedMiles": null,
+    "image": "/images/rs/lifestyle/db11-mountain-dusk.jpg",
+    "tags": [
+      "coupe",
+      "self-drive",
+      "date-night"
+    ],
+    "passengers": 2,
+    "drive": "self",
+    "photoQuality": "supporting",
+    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate.",
+    "gallery": [
+      "/images/rs/lifestyle/db11-mountain-dusk.jpg",
+      "/images/rs/lifestyle/db11-mountain-bluehour.jpg",
+      "/images/rs/lifestyle/db11-mansion-grey.jpg",
+      "/images/rs/db11.jpg"
+    ],
+    "imageKind": "photo",
+    "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch."
+  },
+  {
+    "id": "rolls-royce-wraith",
+    "name": "2023 Rolls-Royce Wraith",
+    "category": "exotic",
+    "markets": [
+      "maryland",
+      "dc",
+      "virginia"
+    ],
+    "tagline": "2023 · timeless elegance",
+    "blurb": "Navigate in the timeless elegance of the 2023 Rolls-Royce Wraith. Luxurious design and powerful performance make each journey a sublime expression of sophistication and class.",
+    "dailyRate": null,
+    "rateStatus": "price_on_request",
+    "includedMiles": null,
+    "image": "/images/rs/lifestyle/wraith-montecarlo.jpg",
+    "tags": [
+      "coupe",
+      "self-drive",
+      "anniversary"
+    ],
+    "passengers": 4,
+    "drive": "self",
+    "photoQuality": "supporting",
+    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate.",
+    "gallery": [
+      "/images/rs/lifestyle/wraith-montecarlo.jpg",
+      "/images/rs/lifestyle/wraith-mansion-twotone.jpg",
+      "/images/rs/wraith.jpg"
+    ],
+    "imageKind": "photo",
+    "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch."
+  },
+  {
+    "id": "bentley-bentayga",
+    "name": "2023 Bentley Bentayga",
+    "category": "exotic",
+    "markets": [
+      "maryland",
+      "dc",
+      "virginia"
+    ],
+    "tagline": "2023 · refined power",
+    "blurb": "Embark on journeys of unparalleled luxury in the 2023 Bentley Bentayga. Extraordinary craftsmanship and potent performance turn every ride into a voyage of grandeur.",
+    "dailyRate": null,
+    "rateStatus": "price_on_request",
+    "includedMiles": null,
+    "image": "/images/rs/lifestyle/bentayga-mansion-green.jpg",
+    "tags": [
+      "suv",
+      "family",
+      "chauffeur-ready"
+    ],
+    "passengers": 5,
+    "drive": "either",
+    "photoQuality": "supporting",
+    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate.",
+    "gallery": [
+      "/images/rs/lifestyle/bentayga-mansion-green.jpg",
+      "/images/rs/lifestyle/bentayga-castle-green.jpg",
+      "/images/rs/bentayga.jpg"
+    ],
+    "imageKind": "photo",
+    "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch."
+  },
+  {
+    "id": "bentley-continental-gt-v8s",
+    "name": "Bentley Continental GT V8 S",
+    "category": "exotic",
+    "markets": [
+      "maryland",
+      "dc",
+      "virginia"
+    ],
+    "tagline": "Grand touring posture",
+    "blurb": "Bentley Continental GT V8 S — grand touring posture for DC dinners and weekend coastal loops.",
+    "dailyRate": null,
+    "rateStatus": "price_on_request",
+    "includedMiles": null,
+    "image": "/images/rs/bentley-cont.jpg",
+    "tags": [
+      "coupe",
+      "self-drive",
+      "date-night"
+    ],
+    "passengers": 4,
+    "drive": "self",
+    "photoQuality": "archive",
+    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate."
+  },
+  {
+    "id": "mclaren-gt",
+    "name": "McLaren GT",
+    "category": "exotic",
+    "markets": [
+      "maryland",
+      "dc",
+      "virginia"
+    ],
+    "tagline": "Exotic performance",
+    "blurb": "McLaren GT — exotic performance from the elite fleet. Confirm availability with concierge before quoting.",
+    "dailyRate": null,
+    "rateStatus": "price_on_request",
+    "includedMiles": null,
+    "image": "/images/rs/mclaren-shop.jpg",
+    "gallery": [
+      "/images/rs/mclaren-cabin.jpg"
+    ],
+    "tags": [
+      "supercar",
+      "self-drive",
+      "weekend"
+    ],
+    "passengers": 2,
+    "drive": "self",
+    "photoQuality": "archive"
+  },
+  {
+    "id": "sprinter-presidential",
+    "name": "Presidential Mercedes-Benz Sprinter",
+    "category": "sprinter",
+    "markets": [
+      "maryland",
+      "dc",
+      "virginia"
+    ],
+    "tagline": "Six captain’s chairs · hyper-luxury",
+    "blurb": "Presidential Mercedes-Benz Sprinter with six captain’s chairs, ultimate luxury layout, executive climate systems, and RV-type bathroom comfort for long-distance executive travel, weddings, and group transit.",
+    "dailyRate": null,
+    "rateStatus": "price_on_request",
+    "includedMiles": null,
+    "image": "/images/rs/sprinter-shop.jpg",
+    "gallery": [
+      "/images/rs/img0208.jpg"
+    ],
+    "tags": [
+      "group",
+      "chauffeur",
+      "wedding",
+      "airport",
+      "corporate"
+    ],
+    "passengers": 6,
+    "drive": "chauffeur",
+    "photoQuality": "supporting"
+  },
+  {
+    "id": "sprinter-ultimate",
+    "name": "Ultimate Luxury Sprinter",
+    "category": "sprinter",
+    "markets": [
+      "maryland",
+      "dc",
+      "virginia"
+    ],
+    "tagline": "Ultimate layout · onboard restroom",
+    "blurb": "Ultimate luxury Sprinter layout for events and extended itineraries — plush seating, entertainment, onboard restroom, refreshments, and optional armed chauffeur for secure DMV transit.",
+    "details": "Archive product story: bar removed for more seating; private bathroom with elbow room; stocked beverage service; common uses include airport, corporate, wedding, prom, and funeral transport.",
+    "dailyRate": null,
+    "rateStatus": "price_on_request",
+    "includedMiles": null,
+    "image": "/images/rs/sprinter-hi.jpg",
+    "gallery": [
+      "/images/rs/img0208.jpg",
+      "/images/rs/cabin-star.webp"
+    ],
+    "tags": [
+      "group",
+      "chauffeur",
+      "prom",
+      "funeral",
+      "tour"
+    ],
+    "passengers": 8,
+    "drive": "chauffeur",
+    "photoQuality": "supporting"
+  },
+  {
+    "id": "sprinter-executive",
+    "name": "Executive Climate Sprinter",
+    "category": "sprinter",
+    "markets": [
+      "maryland",
+      "dc",
+      "virginia"
+    ],
+    "tagline": "Executive climate systems",
+    "blurb": "Executive climate-controlled Sprinter for corporate shuttles, airport runs, and multi-stop executive days across the DMV.",
+    "dailyRate": null,
+    "rateStatus": "price_on_request",
+    "includedMiles": null,
+    "image": "/images/rs/img0208.jpg",
+    "tags": [
+      "group",
+      "chauffeur",
+      "corporate",
+      "airport"
+    ],
+    "passengers": 6,
+    "drive": "chauffeur",
+    "photoQuality": "supporting"
+  },
+  {
+    "id": "rolls-royce-spectre",
+    "name": "Rolls-Royce Spectre",
+    "category": "exotic",
+    "markets": [
+      "maryland",
+      "dc",
+      "virginia",
+      "miami"
+    ],
+    "tagline": "Verify inventory · coupe EV",
+    "blurb": "Rolls-Royce Spectre appeared in the saved exotic-cars segment pack. Confirm with concierge whether this unit is bookable through RS Luxury before listing rates or promoting photography.",
+    "dailyRate": null,
+    "rateStatus": "price_on_request",
+    "includedMiles": null,
+    "image": "/images/rs/segments/rolls-royce-spectre.jpg",
+    "imageKind": "segment-cutout",
+    "photoQuality": "archive",
+    "photoNote": "Appeared in saved EXOTIC CARS segments (Google AI Mode cutouts / Miller Motorcars-adjacent). Confirm whether this is active RS inventory before promoting.",
+    "inventoryStatus": "verify_with_owners",
+    "tags": [
+      "coupe",
+      "chauffeur-ready",
+      "anniversary"
+    ],
+    "passengers": 4,
+    "drive": "either"
+  },
+  {
+    "id": "rolls-royce-phantom",
+    "name": "Rolls-Royce Phantom",
+    "category": "exotic",
+    "markets": [
+      "maryland",
+      "dc",
+      "virginia",
+      "miami"
+    ],
+    "tagline": "Verify inventory · flagship sedan",
+    "blurb": "Rolls-Royce Phantom appeared in the saved exotic-cars segment pack. Confirm with concierge whether this flagship sedan is active RS inventory.",
+    "dailyRate": null,
+    "rateStatus": "price_on_request",
+    "includedMiles": null,
+    "image": "/images/rs/segments/rolls-royce-phantom.jpg",
+    "imageKind": "segment-cutout",
+    "photoQuality": "archive",
+    "photoNote": "Appeared in saved EXOTIC CARS segments (Google AI Mode cutouts / Miller Motorcars-adjacent). Confirm whether this is active RS inventory before promoting.",
+    "inventoryStatus": "verify_with_owners",
+    "tags": [
+      "sedan",
+      "chauffeur-ready",
+      "wedding",
+      "corporate"
+    ],
+    "passengers": 4,
+    "drive": "either"
+  }
+]

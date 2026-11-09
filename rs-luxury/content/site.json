@@ -1,0 +1,100 @@
+{
+  "brand": "RS Luxury",
+  "legalName": "RS Luxury & Exotic Rentals",
+  "phone": "(301) 615-1545",
+  "phoneTel": "+13016151545",
+  "email": "info@rs-luxury.com",
+  "base": "National Harbor, Maryland",
+  "tagline": "Elite transportation and chauffeur service across the DMV and Miami.",
+  "positioning": "High-end exotic cars and hyper-luxury multi-passenger vehicles for executive travel, weddings, red-carpet events, and secure transit.",
+  "owners": "Jeannie and Randy",
+  "logo": "/images/rs/logo.png",
+  "logoLight": "/images/rs/logo-white.png",
+  "heroImage": "/images/rs/cullinan-blue-garage.jpg",
+  "marylandHeroImage": "/images/rs/cullinan-blue-garage.jpg",
+  "accentNote": "Palette pulled from the electric-blue Cullinan hero — garage concrete + cobalt.",
+  "occasions": [
+    "Executive travel",
+    "Weddings",
+    "Red-carpet events",
+    "Secure transit",
+    "Airport transfers",
+    "Prom send-offs"
+  ],
+  "markets": [
+    {
+      "id": "maryland",
+      "label": "Maryland",
+      "href": "/maryland-exotic-car-rentals",
+      "areas": [
+        "National Harbor",
+        "Baltimore",
+        "Annapolis",
+        "Glen Burnie",
+        "Ft. Washington",
+        "La Plata"
+      ]
+    },
+    {
+      "id": "dc",
+      "label": "Washington DC",
+      "href": "/book",
+      "areas": [
+        "NE",
+        "NW",
+        "SW",
+        "Capitol Hill",
+        "H Street",
+        "U Street"
+      ]
+    },
+    {
+      "id": "virginia",
+      "label": "Virginia",
+      "href": "/book",
+      "areas": [
+        "Vienna",
+        "Alexandria",
+        "Tysons",
+        "Herndon",
+        "Arlington",
+        "Mt. Vernon"
+      ]
+    },
+    {
+      "id": "miami",
+      "label": "Miami",
+      "href": "/book",
+      "areas": [
+        "South Beach",
+        "Wynwood",
+        "Coconut Grove",
+        "Little Havana",
+        "Brickell"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "David L.",
+      "quote": "Rs-Luxury’s DC Exotic Car Rentals are an epitome of luxury and performance. Driving through DC was an unforgettable, thrilling experience!"
+    },
+    {
+      "name": "Sophia M.",
+      "quote": "An exceptional service! Rs-Luxury’s exotic cars transformed our DC travels into luxurious journeys filled with comfort and exhilaration."
+    },
+    {
+      "name": "Ethan R.",
+      "quote": "Driving an Rs-Luxury exotic car in DC was a dream come true. Every moment was filled with luxury, performance, and unmatched style."
+    }
+  ],
+  "marylandPitch": "Elite exotic and chauffeur service from National Harbor — Rolls-Royce, Bentley, Aston Martin, McLaren, and Presidential Sprinters for executive travel, weddings, red-carpet nights, and secure transit across Maryland and the wider DMV.",
+  "experiencePitch": "A premium fleet of high-performance exotics and hyper-luxury multi-passenger vehicles, staged with concierge detail so every arrival feels intentional — from Capitol Hill dinners to Miami chapter weekends.",
+  "prom": {
+    "enabled": true,
+    "headline": "Exotic prom rental cars & chauffeur service",
+    "copy": "Now booking Washington DC, Maryland, and Northern Virginia. Red-carpet arrivals, luxury interiors, professional on-time service. Limited prom dates — secure yours now.",
+    "image": "/images/rs/ig-prom-booking.jpg",
+    "source": "https://www.instagram.com/p/DUzgt0ljeFb/"
+  }
+}

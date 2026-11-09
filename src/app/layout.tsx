@@ -1,19 +1,30 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Manrope } from "next/font/google";
+import localFont from "next/font/local";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import "./globals.css";
 
-const display = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+const display = localFont({
+  src: [
+    { path: "../fonts/CormorantGaramond-Regular.woff2", weight: "400", style: "normal" },
+    { path: "../fonts/CormorantGaramond-Medium.woff2", weight: "500", style: "normal" },
+    { path: "../fonts/CormorantGaramond-SemiBold.woff2", weight: "600", style: "normal" },
+    { path: "../fonts/CormorantGaramond-Bold.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-display",
+  display: "swap",
 });
 
-const sans = Manrope({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
+const sans = localFont({
+  src: [
+    { path: "../fonts/Manrope-Regular.woff2", weight: "400", style: "normal" },
+    { path: "../fonts/Manrope-Medium.woff2", weight: "500", style: "normal" },
+    { path: "../fonts/Manrope-SemiBold.woff2", weight: "600", style: "normal" },
+    { path: "../fonts/Manrope-Bold.woff2", weight: "700", style: "normal" },
+    { path: "../fonts/Manrope-ExtraBold.woff2", weight: "800", style: "normal" },
+  ],
   variable: "--font-sans",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
