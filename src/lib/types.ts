@@ -13,6 +13,10 @@ export type FleetVehicle = {
   rateStatus: RateStatus;
   includedMiles: number | null;
   image: string;
+  imageKind?: "photo" | "brand-mark";
+  gallery?: string[];
+  tagline?: string;
+  details?: string;
   tags: string[];
   passengers: number;
   drive: DriveMode;

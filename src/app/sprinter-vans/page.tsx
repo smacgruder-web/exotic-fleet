@@ -17,8 +17,8 @@ export default function SprinterPage() {
     <>
       <section className="relative min-h-[70svh] overflow-hidden">
         <Image
-          src="/images/spotlight.jpg"
-          alt="Luxury Sprinter atmosphere"
+          src="/images/rs/sprinter-shop.jpg"
+          alt="RS Luxury Mercedes-Benz Sprinter"
           fill
           priority
           className="object-cover"
@@ -31,8 +31,8 @@ export default function SprinterPage() {
             Sprinter vans
           </h1>
           <p className="mt-4 max-w-xl text-sm leading-relaxed text-mist md:text-base">
-            Six captain’s chairs, ambient lighting, onboard comfort, and private drivers
-            for airport, corporate, wedding, prom, and funeral transport.
+            Six captain’s chairs, ambient lighting, onboard restroom, refreshments, and
+            private drivers for airport, corporate, wedding, prom, and funeral transport.
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
             <Link
@@ -50,6 +50,32 @@ export default function SprinterPage() {
           </div>
         </div>
       </section>
+
+      <section className="mx-auto grid max-w-7xl gap-8 px-5 py-14 md:grid-cols-2 md:px-8">
+        <div className="relative aspect-[4/3] overflow-hidden border border-ink-line">
+          <Image
+            src="/images/rs/img0208.jpg"
+            alt="Sprinter captain’s chairs interior"
+            fill
+            className="object-cover"
+            sizes="50vw"
+          />
+        </div>
+        <div className="flex flex-col justify-center">
+          <p className="text-[0.7rem] uppercase tracking-[0.28em] text-champagne">
+            Ultimate upgrades
+          </p>
+          <h2 className="mt-3 font-display text-4xl text-silver">
+            Refreshments. Armed drivers. Guided tours.
+          </h2>
+          <p className="mt-4 text-sm leading-relaxed text-mist-muted">
+            Stock beverages of choice, elevate security with a professionally trained armed
+            driver, and let our chauffeurs guide you through the nation’s capital — no extra
+            stops for public restrooms.
+          </p>
+        </div>
+      </section>
+
       <FleetGrid
         vehicles={sprinters}
         title="Presidential · Ultimate · Executive"

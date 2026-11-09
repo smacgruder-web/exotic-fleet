@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { site } from "@/lib/content";
 
@@ -12,13 +13,23 @@ const links = [
 export function SiteHeader() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-ink/75 backdrop-blur-md">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4 md:px-8">
-        <Link href="/" className="group flex flex-col leading-none">
-          <span className="font-display text-2xl tracking-[0.08em] text-silver transition group-hover:text-white md:text-[1.65rem]">
-            RS Luxury
-          </span>
-          <span className="mt-1 text-[0.65rem] uppercase tracking-[0.28em] text-mist-muted">
-            & Exotic Rentals
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-3 md:px-8">
+        <Link href="/" className="group flex items-center gap-3">
+          <Image
+            src={site.logo}
+            alt="RS Luxury"
+            width={44}
+            height={40}
+            className="h-10 w-auto"
+            priority
+          />
+          <span className="flex flex-col leading-none">
+            <span className="font-display text-xl tracking-[0.08em] text-silver transition group-hover:text-white md:text-2xl">
+              RS Luxury
+            </span>
+            <span className="mt-1 text-[0.6rem] uppercase tracking-[0.28em] text-mist-muted">
+              & Exotic Rentals
+            </span>
           </span>
         </Link>
 

@@ -14,8 +14,8 @@ export default function ChauffeurPage() {
     <>
       <section className="relative min-h-[70svh] overflow-hidden">
         <Image
-          src="/images/rolls-royce.jpg"
-          alt="Chauffeur-ready Rolls-Royce"
+          src="/images/rs/ghost-shop.jpg"
+          alt="Rolls-Royce Ghost chauffeur service"
           fill
           priority
           className="object-cover"
@@ -58,27 +58,14 @@ export default function ChauffeurPage() {
               will brief you carefully. No automated “security AI.”
             </p>
           </div>
-          <div className="border border-ink-line bg-ink-soft/50 p-8">
-            <p className="text-[0.7rem] uppercase tracking-[0.22em] text-champagne">
-              Pair with
-            </p>
-            <ul className="mt-4 space-y-3 text-sm text-mist">
-              <li>
-                <Link href="/maryland-exotic-car-rentals" className="hover:text-champagne">
-                  Maryland exotic fleet
-                </Link>
-              </li>
-              <li>
-                <Link href="/sprinter-vans" className="hover:text-champagne">
-                  Sprinter group transport
-                </Link>
-              </li>
-              <li>
-                <Link href="/#fleet-match" className="hover:text-champagne">
-                  AI fleet match
-                </Link>
-              </li>
-            </ul>
+          <div className="relative min-h-[260px] overflow-hidden border border-ink-line">
+            <Image
+              src="/images/rs/cabin-star.webp"
+              alt="Starlight luxury cabin"
+              fill
+              className="object-cover"
+              sizes="50vw"
+            />
           </div>
         </div>
       </section>

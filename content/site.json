@@ -5,8 +5,12 @@
   "phoneTel": "+13016151545",
   "email": "info@rs-luxury.com",
   "base": "National Harbor, Maryland",
-  "tagline": "Opulence meets adventure — the DMV’s elite exotic & chauffeur house.",
+  "tagline": "Opulence meets adventure — the most elite rental service in the DMV.",
   "owners": "Jeannie and Randy",
+  "logo": "/images/rs/logo.png",
+  "logoLight": "/images/rs/logo-white.png",
+  "heroImage": "/images/rs/mclaren-shop.jpg",
+  "marylandHeroImage": "/images/rs/urus-shop.jpg",
   "markets": [
     {
       "id": "maryland",
@@ -36,15 +40,17 @@
   "testimonials": [
     {
       "name": "David L.",
-      "quote": "Flawless delivery near the Harbor — the Urus turned a birthday weekend into a headline."
+      "quote": "Rs-Luxury’s DC Exotic Car Rentals are an epitome of luxury and performance. Driving through DC was an unforgettable, thrilling experience!"
     },
     {
       "name": "Sophia M.",
-      "quote": "Concierge-level detail from the first call. Ghost with chauffeur made our anniversary feel private and unhurried."
+      "quote": "An exceptional service! Rs-Luxury’s exotic cars transformed our DC travels into luxurious journeys filled with comfort and exhilaration."
     },
     {
       "name": "Ethan R.",
-      "quote": "Sprinter for a wedding party of eight — captain’s chairs, on time, zero stress."
+      "quote": "Driving an Rs-Luxury exotic car in DC was a dream come true. Every moment was filled with luxury, performance, and unmatched style."
     }
-  ]
+  ],
+  "marylandPitch": "Embark on a journey defined by elegance and extraordinary performance. A fleet of meticulously maintained exotic cars — each a symphony of engineering excellence — curated so Maryland roads become stages, not commutes.",
+  "experiencePitch": "Our exotic cars are more than vehicles — masterpieces of engineering and luxury promising performance, comfort, and style. Each drive is a memorable adventure through the heart of Maryland and the wider DMV."
 }

@@ -9,17 +9,24 @@ export default function HomePage() {
     <>
       <section className="relative min-h-[100svh] overflow-hidden">
         <Image
-          src="/images/bentley-front.jpg"
-          alt="RS Luxury exotic at dusk"
+          src={site.heroImage}
+          alt="RS Luxury McLaren GT"
           fill
           priority
           className="object-cover animate-kenburns"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/80 to-ink/25" />
-        <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-ink/40" />
+        <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/80 to-ink/30" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-ink/45" />
 
         <div className="relative z-10 mx-auto flex min-h-[100svh] max-w-7xl flex-col justify-end px-5 pb-20 pt-28 md:px-8 md:pb-28">
+          <Image
+            src={site.logo}
+            alt=""
+            width={72}
+            height={64}
+            className="animate-rise mb-4 opacity-90"
+          />
           <p className="animate-rise text-[0.72rem] uppercase tracking-[0.32em] text-champagne">
             National Harbor · DMV · Miami
           </p>
@@ -27,8 +34,8 @@ export default function HomePage() {
             RS Luxury
           </h1>
           <p className="animate-rise mt-5 max-w-xl text-base leading-relaxed text-mist md:text-lg">
-            Maryland exotic rentals, Sprinter groups, and chauffeur arrivals —
-            curated for evenings that need presence.
+            {site.tagline} Maryland exotic rentals, Sprinter groups, and chauffeur
+            arrivals — curated for evenings that need presence.
           </p>
           <div className="animate-rise mt-8 flex flex-wrap gap-3">
             <Link
@@ -51,31 +58,46 @@ export default function HomePage() {
         {[
           {
             title: "Exotics",
-            copy: "Urus, Ghost, Cullinan Black Badge, Bentley, Aston — self-drive showpieces rooted at National Harbor.",
+            copy: "Urus widebody, Ghost, Cullinan Black Badge, Bentley, Aston, McLaren — self-drive showpieces rooted at National Harbor.",
             href: "/maryland-exotic-car-rentals",
+            image: "/images/rs/urus-shop.jpg",
           },
           {
             title: "Sprinters",
-            copy: "Presidential, Ultimate, and Executive builds with captain’s chairs for weddings, airports, and groups.",
+            copy: "Presidential, Ultimate, and Executive builds with captain’s chairs, onboard comfort, and private drivers for groups.",
             href: "/sprinter-vans",
+            image: "/images/rs/sprinter-shop.jpg",
           },
           {
             title: "Chauffeur",
             copy: "Optional chauffeur — including armed chauffeur routing — across Maryland, DC, and Virginia.",
             href: "/luxury-chauffeur-service",
+            image: "/images/rs/ghost-shop.jpg",
           },
         ].map((item) => (
           <Link
             key={item.title}
             href={item.href}
-            className="group border-t border-ink-line pt-6 transition hover:border-champagne"
+            className="group overflow-hidden border border-ink-line transition hover:border-champagne"
           >
-            <h2 className="font-display text-3xl text-silver group-hover:text-white">
-              {item.title}
-            </h2>
-            <p className="mt-3 text-sm leading-relaxed text-mist-muted">
-              {item.copy}
-            </p>
+            <div className="relative aspect-[5/3]">
+              <Image
+                src={item.image}
+                alt={item.title}
+                fill
+                className="object-cover transition duration-700 group-hover:scale-105"
+                sizes="(max-width:768px) 100vw, 33vw"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/20 to-transparent" />
+            </div>
+            <div className="p-6">
+              <h2 className="font-display text-3xl text-silver group-hover:text-white">
+                {item.title}
+              </h2>
+              <p className="mt-3 text-sm leading-relaxed text-mist-muted">
+                {item.copy}
+              </p>
+            </div>
           </Link>
         ))}
       </section>
@@ -85,7 +107,7 @@ export default function HomePage() {
 
       <section className="mx-auto max-w-7xl px-5 py-20 md:px-8">
         <p className="text-[0.7rem] uppercase tracking-[0.28em] text-champagne">
-          From the floor
+          What our clients say
         </p>
         <div className="mt-8 grid gap-8 md:grid-cols-3">
           {site.testimonials.map((t) => (
