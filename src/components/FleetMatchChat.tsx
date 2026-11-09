@@ -73,7 +73,7 @@ export function FleetMatchChat() {
           <p className="text-[0.7rem] uppercase tracking-[0.28em] text-champagne">
             AI fleet match · Phase 1
           </p>
-          <h2 className="mt-3 font-display text-4xl text-silver md:text-5xl">
+          <h2 className="mt-3 font-display text-4xl text-ink md:text-5xl">
             Find the right machine in a sentence.
           </h2>
           <p className="mt-4 max-w-xl text-sm leading-relaxed text-mist-muted">
@@ -87,14 +87,14 @@ export function FleetMatchChat() {
                 key={s}
                 type="button"
                 onClick={() => send(s)}
-                className="border border-ink-line bg-ink/50 px-3 py-2 text-left text-xs text-mist transition hover:border-champagne/50 hover:text-white"
+                className="border border-ink-line bg-paper-soft px-3 py-2 text-left text-xs text-mist transition hover:border-champagne/50 hover:text-ink"
               >
                 {s}
               </button>
             ))}
           </div>
 
-          <div className="mt-6 h-[340px] overflow-y-auto border border-ink-line bg-ink/70 p-4">
+          <div className="mt-6 h-[340px] overflow-y-auto border border-ink-line bg-paper p-4">
             {messages.map((m, i) => (
               <div
                 key={`${m.role}-${i}`}
@@ -121,7 +121,7 @@ export function FleetMatchChat() {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               placeholder="Describe the trip…"
-              className="flex-1 border border-ink-line bg-ink px-4 py-3 text-sm text-white outline-none ring-champagne focus:ring-1"
+              className="flex-1 border border-ink-line bg-paper px-4 py-3 text-sm text-ink outline-none ring-champagne focus:ring-1"
             />
             <button
               type="submit"
@@ -141,13 +141,13 @@ export function FleetMatchChat() {
             </a>
             <a
               href="sms:+13016151545"
-              className="border border-ink-line px-4 py-2.5 text-[0.72rem] uppercase tracking-[0.16em] text-mist hover:border-white hover:text-white"
+              className="border border-ink-line px-4 py-2.5 text-[0.72rem] uppercase tracking-[0.16em] text-mist hover:border-signal hover:text-ink"
             >
               SMS handoff
             </a>
             <Link
               href="/book"
-              className="border border-ink-line px-4 py-2.5 text-[0.72rem] uppercase tracking-[0.16em] text-mist hover:border-white hover:text-white"
+              className="border border-ink-line px-4 py-2.5 text-[0.72rem] uppercase tracking-[0.16em] text-mist hover:border-signal hover:text-ink"
             >
               Full intake
             </Link>
@@ -166,9 +166,9 @@ export function FleetMatchChat() {
             matches.map((m) => (
               <div
                 key={m.id}
-                className="border border-ink-line bg-ink-soft/80 p-4 animate-reveal"
+                className="border border-ink-line bg-paper p-4 animate-reveal"
               >
-                <div className="font-display text-xl text-white">{m.name}</div>
+                <div className="font-display text-xl text-ink">{m.name}</div>
                 <div className="mt-1 text-sm text-champagne">
                   {m.dailyRate != null
                     ? `$${m.dailyRate.toLocaleString("en-US")}/day archive`
@@ -176,7 +176,7 @@ export function FleetMatchChat() {
                 </div>
                 <Link
                   href={`/book?vehicle=${m.id}`}
-                  className="mt-3 inline-block text-xs uppercase tracking-[0.16em] text-mist underline underline-offset-4 hover:text-white"
+                  className="mt-3 inline-block text-xs uppercase tracking-[0.16em] text-mist underline underline-offset-4 hover:text-ink"
                 >
                   Start booking
                 </Link>

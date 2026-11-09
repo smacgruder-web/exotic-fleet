@@ -24,7 +24,7 @@ export default async function BookPage({
             <p className="text-[0.7rem] uppercase tracking-[0.28em] text-champagne">
               Contact · Book now
             </p>
-            <h1 className="mt-3 font-display text-5xl text-silver">
+            <h1 className="mt-3 font-display text-5xl text-ink">
               Tell us the occasion.
             </h1>
             <p className="mt-4 text-sm leading-relaxed text-mist-muted">
@@ -34,7 +34,7 @@ export default async function BookPage({
             <div className="mt-8 space-y-2 text-sm">
               <a
                 href={`tel:${site.phoneTel}`}
-                className="block text-2xl text-champagne hover:text-white"
+                className="block text-2xl text-champagne hover:text-signal"
               >
                 {site.phone}
               </a>

@@ -18,7 +18,7 @@ export default function FleetPage() {
         <p className="text-[0.7rem] uppercase tracking-[0.28em] text-champagne">
           Inventory
         </p>
-        <h1 className="mt-3 font-display text-5xl text-silver">The fleet</h1>
+        <h1 className="mt-3 font-display text-5xl text-ink">The fleet</h1>
         <p className="mt-4 max-w-2xl text-sm text-mist-muted">
           Managed in <code className="text-champagne">content/fleet.json</code>. Daily
           rates marked price-on-request are intentionally blank until owners confirm.

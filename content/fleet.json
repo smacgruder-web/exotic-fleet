@@ -13,9 +13,9 @@
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
-    "image": "/images/rs/cullinan-blue-garage.jpg",
+    "image": "/images/rs/lifestyle/cullinan-white-mansion.jpg",
     "imageKind": "photo",
-    "photoQuality": "hero",
+    "photoQuality": "supporting",
     "tags": [
       "suv",
       "chauffeur-ready",
@@ -23,7 +23,8 @@
       "weekend"
     ],
     "passengers": 5,
-    "drive": "either"
+    "drive": "either",
+    "gallery": []
   },
   {
     "id": "lamborghini-urus-widebody",
@@ -51,11 +52,7 @@
     "passengers": 5,
     "drive": "self",
     "photoQuality": "supporting",
-    "gallery": [
-      "/images/rs/lifestyle/urus-coastal-gunmetal.jpg",
-      "/images/rs/lifestyle/urus-mansion-matte.jpg",
-      "/images/rs/urus-shop.jpg"
-    ],
+    "gallery": [],
     "imageKind": "photo",
     "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch."
   },
@@ -74,7 +71,7 @@
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
-    "image": "/images/rs/lifestyle/ghost-night-city.jpg",
+    "image": "/images/rs/lifestyle/ghost-mansion-black.jpg",
     "tags": [
       "sedan",
       "chauffeur-ready",
@@ -85,11 +82,7 @@
     "drive": "either",
     "photoQuality": "supporting",
     "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate.",
-    "gallery": [
-      "/images/rs/lifestyle/ghost-night-city.jpg",
-      "/images/rs/lifestyle/ghost-mansion-black.jpg",
-      "/images/rs/ghost-shop.jpg"
-    ],
+    "gallery": [],
     "imageKind": "photo",
     "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch."
   },
@@ -119,10 +112,7 @@
     "photoQuality": "supporting",
     "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate.",
     "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch.",
-    "gallery": [
-      "/images/rs/lifestyle/ghibli-coastal-blue.jpg",
-      "/images/rs/lifestyle/ghibli-mansion-blue.jpg"
-    ]
+    "gallery": []
   },
   {
     "id": "rolls-royce-cullinan-miami",
@@ -136,7 +126,7 @@
     "dailyRate": 1300,
     "rateStatus": "archive_confirmed",
     "includedMiles": null,
-    "image": "/images/rs/lifestyle/cullinan-miami-doors-sunset.jpg",
+    "image": "/images/rs/lifestyle/cullinan-miami-coastal.jpg",
     "imageKind": "photo",
     "tags": [
       "suv",
@@ -147,12 +137,7 @@
     "drive": "either",
     "photoQuality": "supporting",
     "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch.",
-    "gallery": [
-      "/images/rs/lifestyle/cullinan-miami-doors-sunset.jpg",
-      "/images/rs/lifestyle/cullinan-miami-coastal.jpg",
-      "/images/rs/lifestyle/cullinan-white-mansion.jpg",
-      "/images/rs/lifestyle/cullinan-miami-doors-alt.jpg"
-    ]
+    "gallery": []
   },
   {
     "id": "rolls-royce-cullinan-black-badge",
@@ -168,7 +153,7 @@
     "dailyRate": 2000,
     "rateStatus": "archive_confirmed",
     "includedMiles": null,
-    "image": "/images/rs/lifestyle/cullinan-black-night-urban.jpg",
+    "image": "/images/rs/lifestyle/cullinan-black-modern-house.jpg",
     "imageKind": "photo",
     "tags": [
       "suv",
@@ -180,10 +165,7 @@
     "drive": "either",
     "photoQuality": "supporting",
     "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch.",
-    "gallery": [
-      "/images/rs/lifestyle/cullinan-black-night-urban.jpg",
-      "/images/rs/lifestyle/cullinan-black-modern-house.jpg"
-    ]
+    "gallery": []
   },
   {
     "id": "aston-martin-db11",
@@ -209,12 +191,7 @@
     "drive": "self",
     "photoQuality": "supporting",
     "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate.",
-    "gallery": [
-      "/images/rs/lifestyle/db11-mountain-dusk.jpg",
-      "/images/rs/lifestyle/db11-mountain-bluehour.jpg",
-      "/images/rs/lifestyle/db11-mansion-grey.jpg",
-      "/images/rs/db11.jpg"
-    ],
+    "gallery": [],
     "imageKind": "photo",
     "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch."
   },
@@ -242,11 +219,7 @@
     "drive": "self",
     "photoQuality": "supporting",
     "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate.",
-    "gallery": [
-      "/images/rs/lifestyle/wraith-montecarlo.jpg",
-      "/images/rs/lifestyle/wraith-mansion-twotone.jpg",
-      "/images/rs/wraith.jpg"
-    ],
+    "gallery": [],
     "imageKind": "photo",
     "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch."
   },
@@ -274,11 +247,7 @@
     "drive": "either",
     "photoQuality": "supporting",
     "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate.",
-    "gallery": [
-      "/images/rs/lifestyle/bentayga-mansion-green.jpg",
-      "/images/rs/lifestyle/bentayga-castle-green.jpg",
-      "/images/rs/bentayga.jpg"
-    ],
+    "gallery": [],
     "imageKind": "photo",
     "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch."
   },
@@ -305,7 +274,8 @@
     "passengers": 4,
     "drive": "self",
     "photoQuality": "archive",
-    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate."
+    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate.",
+    "gallery": []
   },
   {
     "id": "mclaren-gt",
@@ -322,9 +292,7 @@
     "rateStatus": "price_on_request",
     "includedMiles": null,
     "image": "/images/rs/mclaren-shop.jpg",
-    "gallery": [
-      "/images/rs/mclaren-cabin.jpg"
-    ],
+    "gallery": [],
     "tags": [
       "supercar",
       "self-drive",
@@ -348,10 +316,8 @@
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
-    "image": "/images/rs/sprinter-shop.jpg",
-    "gallery": [
-      "/images/rs/img0208.jpg"
-    ],
+    "image": "/images/rs/logo.png",
+    "gallery": [],
     "tags": [
       "group",
       "chauffeur",
@@ -361,7 +327,9 @@
     ],
     "passengers": 6,
     "drive": "chauffeur",
-    "photoQuality": "supporting"
+    "photoQuality": "brand-mark",
+    "imageKind": "brand-mark",
+    "photoNote": "Unique Sprinter photography reserved for the Sprinter page — inquire for unit photos."
   },
   {
     "id": "sprinter-ultimate",
@@ -378,11 +346,8 @@
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
-    "image": "/images/rs/sprinter-hi.jpg",
-    "gallery": [
-      "/images/rs/img0208.jpg",
-      "/images/rs/cabin-star.webp"
-    ],
+    "image": "/images/rs/logo.png",
+    "gallery": [],
     "tags": [
       "group",
       "chauffeur",
@@ -392,7 +357,9 @@
     ],
     "passengers": 8,
     "drive": "chauffeur",
-    "photoQuality": "supporting"
+    "photoQuality": "brand-mark",
+    "imageKind": "brand-mark",
+    "photoNote": "Awaiting unique Sprinter unit photo — not reusing other vehicles’ images."
   },
   {
     "id": "sprinter-executive",
@@ -408,7 +375,7 @@
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
-    "image": "/images/rs/img0208.jpg",
+    "image": "/images/rs/logo.png",
     "tags": [
       "group",
       "chauffeur",
@@ -417,7 +384,10 @@
     ],
     "passengers": 6,
     "drive": "chauffeur",
-    "photoQuality": "supporting"
+    "photoQuality": "brand-mark",
+    "imageKind": "brand-mark",
+    "gallery": [],
+    "photoNote": "Awaiting unique Sprinter unit photo — not reusing other vehicles’ images."
   },
   {
     "id": "rolls-royce-spectre",
@@ -445,7 +415,8 @@
       "anniversary"
     ],
     "passengers": 4,
-    "drive": "either"
+    "drive": "either",
+    "gallery": []
   },
   {
     "id": "rolls-royce-phantom",
@@ -474,6 +445,7 @@
       "corporate"
     ],
     "passengers": 4,
-    "drive": "either"
+    "drive": "either",
+    "gallery": []
   }
 ]

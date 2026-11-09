@@ -12,7 +12,7 @@ const links = [
 
 export function SiteHeader() {
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-ink/75 backdrop-blur-md">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-ink-line/80 bg-paper/85 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-3 md:px-8">
         <Link href="/" className="group flex items-center gap-3">
           <Image
@@ -24,7 +24,7 @@ export function SiteHeader() {
             priority
           />
           <span className="flex flex-col leading-none">
-            <span className="font-display text-xl tracking-[0.08em] text-silver transition group-hover:text-white md:text-2xl">
+            <span className="font-display text-xl tracking-[0.08em] text-ink transition group-hover:text-signal md:text-2xl">
               RS Luxury
             </span>
             <span className="mt-1 text-[0.6rem] uppercase tracking-[0.28em] text-mist-muted">
@@ -38,7 +38,7 @@ export function SiteHeader() {
             <Link
               key={l.href}
               href={l.href}
-              className="transition hover:text-champagne"
+              className="transition hover:text-signal"
             >
               {l.label}
             </Link>
@@ -47,7 +47,7 @@ export function SiteHeader() {
 
         <a
           href={`tel:${site.phoneTel}`}
-          className="inline-flex items-center justify-center border border-signal bg-signal px-4 py-2.5 text-[0.72rem] font-semibold uppercase tracking-[0.16em] text-white transition hover:bg-transparent hover:text-signal"
+          className="inline-flex items-center justify-center bg-signal px-4 py-2.5 text-[0.72rem] font-semibold uppercase tracking-[0.16em] text-white transition hover:bg-cobalt-deep"
         >
           {site.phone}
         </a>

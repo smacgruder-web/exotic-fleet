@@ -49,12 +49,12 @@ export function QuoteEstimator({ vehicles }: { vehicles: FleetVehicle[] }) {
 
   return (
     <section id="quote" className="mx-auto max-w-7xl px-5 py-16 md:px-8">
-      <div className="grid gap-10 border border-ink-line bg-ink-soft/50 p-6 md:grid-cols-2 md:p-10">
+      <div className="grid gap-10 border border-ink-line bg-paper p-6 md:grid-cols-2 md:p-10">
         <div>
           <p className="text-[0.7rem] uppercase tracking-[0.28em] text-champagne">
             Instant quote estimator
           </p>
-          <h2 className="mt-3 font-display text-4xl text-silver">
+          <h2 className="mt-3 font-display text-4xl text-ink">
             Indicative numbers. Human confirmation.
           </h2>
           <p className="mt-4 text-sm leading-relaxed text-mist-muted">
@@ -69,7 +69,7 @@ export function QuoteEstimator({ vehicles }: { vehicles: FleetVehicle[] }) {
             <select
               value={vehicleId}
               onChange={(e) => setVehicleId(e.target.value)}
-              className="mt-2 w-full border border-ink-line bg-ink px-3 py-3 text-sm text-white outline-none"
+              className="mt-2 w-full border border-ink-line bg-paper px-3 py-3 text-sm text-ink outline-none"
             >
               {vehicles.map((v) => (
                 <option key={v.id} value={v.id}>
@@ -91,7 +91,7 @@ export function QuoteEstimator({ vehicles }: { vehicles: FleetVehicle[] }) {
                 max={30}
                 value={days}
                 onChange={(e) => setDays(Number(e.target.value))}
-                className="mt-2 w-full border border-ink-line bg-ink px-3 py-3 text-sm text-white outline-none"
+                className="mt-2 w-full border border-ink-line bg-paper px-3 py-3 text-sm text-ink outline-none"
               />
             </label>
             <label className="block text-xs uppercase tracking-[0.16em] text-mist-muted">
@@ -100,7 +100,7 @@ export function QuoteEstimator({ vehicles }: { vehicles: FleetVehicle[] }) {
                 value={zip}
                 onChange={(e) => setZip(e.target.value)}
                 placeholder="20745"
-                className="mt-2 w-full border border-ink-line bg-ink px-3 py-3 text-sm text-white outline-none"
+                className="mt-2 w-full border border-ink-line bg-paper px-3 py-3 text-sm text-ink outline-none"
               />
             </label>
           </div>
@@ -118,7 +118,7 @@ export function QuoteEstimator({ vehicles }: { vehicles: FleetVehicle[] }) {
                     | "birthdayAnniversary",
                 )
               }
-              className="mt-2 w-full border border-ink-line bg-ink px-3 py-3 text-sm text-white outline-none"
+              className="mt-2 w-full border border-ink-line bg-paper px-3 py-3 text-sm text-ink outline-none"
             >
               <option value="none">None</option>
               <option value="loyalty">Loyalty · 10% off</option>
@@ -138,8 +138,8 @@ export function QuoteEstimator({ vehicles }: { vehicles: FleetVehicle[] }) {
           </button>
 
           {quote && (
-            <div className="border border-champagne/30 bg-ink p-4 text-sm text-mist animate-reveal">
-              <p className="text-white">{quote.message}</p>
+            <div className="border border-champagne/30 bg-paper p-4 text-sm text-mist animate-reveal">
+              <p className="text-ink">{quote.message}</p>
               {quote.estimate != null && (
                 <p className="mt-2 font-display text-3xl text-champagne">
                   ${quote.estimate.toLocaleString("en-US")}

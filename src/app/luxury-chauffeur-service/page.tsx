@@ -14,20 +14,20 @@ export default function ChauffeurPage() {
     <>
       <section className="relative min-h-[70svh] overflow-hidden">
         <Image
-          src="/images/rs/cullinan-blue-garage.jpg"
+          src="/images/rs/lifestyle/wraith-mansion-twotone.jpg"
           alt="Rolls-Royce Cullinan chauffeur service"
           fill
           priority
           className="object-cover"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/75 to-ink/30" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-black/15 to-transparent" />
         <div className="relative z-10 mx-auto flex min-h-[70svh] max-w-7xl flex-col justify-center px-5 py-24 md:px-8">
-          <p className="font-display text-5xl text-silver md:text-6xl">RS Luxury</p>
+          <p className="font-display text-5xl text-white drop-shadow-sm md:text-6xl">RS Luxury</p>
           <h1 className="mt-3 max-w-2xl text-xl uppercase tracking-[0.14em] text-white md:text-2xl">
             Luxury chauffeur service
           </h1>
-          <p className="mt-5 max-w-xl text-sm leading-relaxed text-mist md:text-base">
+          <p className="mt-5 max-w-xl text-sm leading-relaxed text-white/95 md:text-base">
             Elite chauffeur service for executive travel, weddings, red-carpet events, and
             secure transit — pairing 2023 Rolls-Royce, Bentley, and Presidential Sprinters
             with quiet, precise itineraries across the DMV and Miami.
@@ -41,7 +41,7 @@ export default function ChauffeurPage() {
             </Link>
             <a
               href={`tel:${site.phoneTel}`}
-              className="border border-silver/40 px-6 py-3 text-[0.75rem] uppercase tracking-[0.18em] text-silver"
+              className="border border-white/70 bg-white/15 px-6 py-3 text-[0.75rem] uppercase tracking-[0.18em] text-white backdrop-blur-sm"
             >
               Speak with concierge
             </a>
@@ -52,7 +52,7 @@ export default function ChauffeurPage() {
       <section className="mx-auto max-w-7xl px-5 py-16 md:px-8">
         <div className="grid gap-10 md:grid-cols-2">
           <div>
-            <h2 className="font-display text-4xl text-silver">Armed chauffeur option</h2>
+            <h2 className="font-display text-4xl text-ink">Armed chauffeur option</h2>
             <p className="mt-4 text-sm leading-relaxed text-mist-muted">
               Regional pages call out an optional armed chauffeur. We treat this as a
               human-routed request — describe the need in intake notes and a concierge
@@ -61,8 +61,8 @@ export default function ChauffeurPage() {
           </div>
           <div className="relative min-h-[260px] overflow-hidden border border-ink-line">
             <Image
-              src="/images/rs/cabin-star.webp"
-              alt="Starlight luxury cabin"
+              src="/images/rs/lifestyle/db11-mountain-bluehour.jpg"
+              alt="Chauffeur-ready grand touring"
               fill
               className="object-cover"
               sizes="50vw"

@@ -24,13 +24,13 @@ export default function SprinterPage() {
           className="object-cover"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/70 to-ink/40" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent" />
         <div className="relative z-10 mx-auto flex min-h-[70svh] max-w-7xl flex-col justify-end px-5 pb-16 md:px-8">
-          <p className="font-display text-5xl text-silver md:text-6xl">RS Luxury</p>
+          <p className="font-display text-5xl text-white drop-shadow-sm md:text-6xl">RS Luxury</p>
           <h1 className="mt-3 text-xl uppercase tracking-[0.16em] text-white md:text-2xl">
             Luxury Sprinter vans
           </h1>
-          <p className="mt-4 max-w-xl text-sm leading-relaxed text-mist md:text-base">
+          <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/95 md:text-base">
             Presidential Mercedes-Benz Sprinters with six captain’s chairs, ultimate luxury
             layouts, executive climate systems, and RV-type bathrooms — built for
             long-distance comfort, weddings, executive travel, and secure group transit.
@@ -44,7 +44,7 @@ export default function SprinterPage() {
             </Link>
             <a
               href={`tel:${site.phoneTel}`}
-              className="border border-silver/40 px-6 py-3 text-[0.75rem] uppercase tracking-[0.18em] text-silver"
+              className="border border-white/70 bg-white/15 px-6 py-3 text-[0.75rem] uppercase tracking-[0.18em] text-white backdrop-blur-sm"
             >
               {site.phone}
             </a>
@@ -66,7 +66,7 @@ export default function SprinterPage() {
           <p className="text-[0.7rem] uppercase tracking-[0.28em] text-champagne">
             Ultimate upgrades
           </p>
-          <h2 className="mt-3 font-display text-4xl text-silver">
+          <h2 className="mt-3 font-display text-4xl text-ink">
             Hyper-luxury multi-passenger travel.
           </h2>
           <p className="mt-4 text-sm leading-relaxed text-mist-muted">

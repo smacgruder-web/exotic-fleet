@@ -28,8 +28,7 @@ export default function MarylandExoticPage() {
           className="object-cover object-[center_40%] animate-kenburns"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/45 to-ink/30" />
-        <div className="absolute inset-0 bg-gradient-to-r from-ink/80 via-ink/25 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-black/10" />
 
         <div className="relative z-10 mx-auto flex min-h-[100svh] max-w-7xl flex-col justify-end px-5 pb-20 pt-28 md:px-8 md:pb-28">
           <Image
@@ -37,15 +36,15 @@ export default function MarylandExoticPage() {
             alt=""
             width={64}
             height={58}
-            className="animate-rise mb-3 opacity-90"
+            className="animate-rise mb-3 drop-shadow"
           />
-          <p className="animate-rise font-display text-[clamp(2.8rem,8vw,5.5rem)] leading-[0.92] tracking-[0.04em] text-silver">
+          <p className="animate-rise font-display text-[clamp(2.8rem,8vw,5.5rem)] leading-[0.92] tracking-[0.04em] text-white drop-shadow-sm">
             RS Luxury
           </p>
           <h1 className="animate-rise mt-3 max-w-3xl text-[clamp(1.6rem,4vw,2.6rem)] font-semibold uppercase tracking-[0.14em] text-white">
             Maryland exotic car rentals
           </h1>
-          <p className="animate-rise mt-5 max-w-xl text-base leading-relaxed text-mist">
+          <p className="animate-rise mt-5 max-w-xl text-base leading-relaxed text-white/95">
             {site.marylandPitch}
           </p>
           <div className="animate-rise mt-8 flex flex-wrap gap-3">
@@ -53,11 +52,11 @@ export default function MarylandExoticPage() {
               href="/book?vehicle=rolls-royce-cullinan"
               className="bg-signal px-6 py-3.5 text-[0.75rem] font-semibold uppercase tracking-[0.18em] text-white"
             >
-              Book the Cullinan
+              Book now
             </Link>
             <a
               href={`tel:${site.phoneTel}`}
-              className="border border-silver/40 px-6 py-3.5 text-[0.75rem] font-semibold uppercase tracking-[0.18em] text-silver"
+              className="border border-white/70 bg-white/15 px-6 py-3.5 text-[0.75rem] font-semibold uppercase tracking-[0.18em] text-white backdrop-blur-sm"
             >
               {site.phone}
             </a>
@@ -71,7 +70,7 @@ export default function MarylandExoticPage() {
             <p className="text-[0.7rem] uppercase tracking-[0.28em] text-champagne">
               Experience luxury & performance
             </p>
-            <h2 className="mt-3 font-display text-4xl text-silver md:text-5xl">
+            <h2 className="mt-3 font-display text-4xl text-ink md:text-5xl">
               Masterpieces of engineering and luxury.
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-mist-muted md:text-base">
@@ -101,9 +100,9 @@ export default function MarylandExoticPage() {
           {site.testimonials.map((t) => (
             <blockquote
               key={t.name}
-              className="border border-ink-line bg-ink-soft/40 p-6"
+              className="border border-ink-line bg-paper p-6 shadow-sm"
             >
-              <p className="font-display text-xl leading-snug text-silver">
+              <p className="font-display text-xl leading-snug text-ink">
                 “{t.quote}”
               </p>
               <footer className="mt-4 text-xs uppercase tracking-[0.18em] text-mist-muted">
@@ -117,52 +116,32 @@ export default function MarylandExoticPage() {
       <FleetGrid vehicles={exotics} title="Our exotics" eyebrow="Maryland fleet" />
 
       <section className="mx-auto max-w-7xl px-5 py-10 md:px-8">
-        <div className="grid gap-0 border border-ink-line md:grid-cols-2">
-          <div className="relative min-h-[280px]">
-            <Image
-              src="/images/rs/img0208.jpg"
-              alt="RS Luxury Sprinter interior"
-              fill
-              className="object-cover"
-              sizes="50vw"
-            />
-            <div className="absolute inset-0 bg-ink/55" />
-            <div className="relative z-10 flex h-full flex-col justify-end p-8">
-              <h2 className="font-display text-3xl text-silver">Need a Sprinter?</h2>
-              <p className="mt-3 max-w-md text-sm text-mist">
-                Ultimate and Presidential vans with captain’s chairs, onboard restroom,
-                and private drivers for groups across Maryland.
-              </p>
-              <Link
-                href="/sprinter-vans"
-                className="mt-5 inline-block text-[0.72rem] uppercase tracking-[0.18em] text-cobalt-glow underline underline-offset-8"
-              >
-                View Sprinters
-              </Link>
-            </div>
+        <div className="grid gap-0 border border-ink-line bg-paper md:grid-cols-2">
+          <div className="flex flex-col justify-end border-b border-ink-line p-8 md:border-b-0 md:border-r">
+            <h2 className="font-display text-3xl text-ink">Need a Sprinter?</h2>
+            <p className="mt-3 max-w-md text-sm text-mist-muted">
+              Ultimate and Presidential vans with captain’s chairs, onboard restroom,
+              and private drivers for groups across Maryland.
+            </p>
+            <Link
+              href="/sprinter-vans"
+              className="mt-5 inline-block text-[0.72rem] uppercase tracking-[0.18em] text-signal underline underline-offset-8"
+            >
+              View Sprinters
+            </Link>
           </div>
-          <div className="relative min-h-[280px]">
-            <Image
-              src="/images/rs/cabin-star.webp"
-              alt="Starlight luxury cabin"
-              fill
-              className="object-cover"
-              sizes="50vw"
-            />
-            <div className="absolute inset-0 bg-ink/55" />
-            <div className="relative z-10 flex h-full flex-col justify-end p-8">
-              <h2 className="font-display text-3xl text-silver">Prefer a chauffeur?</h2>
-              <p className="mt-3 max-w-md text-sm text-mist">
-                Optional chauffeur — including carefully routed armed chauffeur requests —
-                for Cullinan, Ghost, and Sprinter itineraries.
-              </p>
-              <Link
-                href="/luxury-chauffeur-service"
-                className="mt-5 inline-block text-[0.72rem] uppercase tracking-[0.18em] text-cobalt-glow underline underline-offset-8"
-              >
-                Chauffeur service
-              </Link>
-            </div>
+          <div className="flex flex-col justify-end p-8">
+            <h2 className="font-display text-3xl text-ink">Prefer a chauffeur?</h2>
+            <p className="mt-3 max-w-md text-sm text-mist-muted">
+              Optional chauffeur — including carefully routed armed chauffeur requests —
+              for Cullinan, Ghost, and Sprinter itineraries.
+            </p>
+            <Link
+              href="/luxury-chauffeur-service"
+              className="mt-5 inline-block text-[0.72rem] uppercase tracking-[0.18em] text-signal underline underline-offset-8"
+            >
+              Chauffeur service
+            </Link>
           </div>
         </div>
       </section>

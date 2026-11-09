@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import type { FleetVehicle } from "@/lib/types";
 
 const fieldClass =
-  "mt-2 w-full border border-ink-line bg-ink px-3 py-3 text-sm text-white outline-none focus:border-champagne";
+  "mt-2 w-full border border-ink-line bg-paper px-3 py-3 text-sm text-ink outline-none focus:border-champagne";
 
 export function IntakeForm({
   vehicles,
@@ -71,11 +71,11 @@ export function IntakeForm({
 
   if (status === "done") {
     return (
-      <div className="border border-champagne/40 bg-ink-soft p-8 text-center">
+      <div className="border border-champagne/40 bg-paper p-8 text-center">
         <p className="text-[0.7rem] uppercase tracking-[0.22em] text-champagne">
           Request received
         </p>
-        <h3 className="mt-3 font-display text-3xl text-white">
+        <h3 className="mt-3 font-display text-3xl text-ink">
           A representative will be by your side.
         </h3>
         <p className="mt-3 text-sm text-mist-muted">
@@ -92,7 +92,7 @@ export function IntakeForm({
   return (
     <form
       onSubmit={onSubmit}
-      className="space-y-4 border border-ink-line bg-ink-soft/40 p-6 md:p-8"
+      className="space-y-4 border border-ink-line bg-paper p-6 md:p-8"
     >
       <div className="grid gap-4 md:grid-cols-2">
         <Field label="Name">

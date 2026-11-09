@@ -8,7 +8,7 @@ export function SpecialsBanner() {
   ].filter((s) => s.enabled);
 
   return (
-    <section className="border-y border-ink-line bg-gradient-to-r from-ink via-ink-soft to-ink">
+    <section className="border-y border-ink-line bg-paper border-y border-ink-line">
       <div className="mx-auto max-w-7xl px-5 py-10 md:px-8">
         <p className="text-[0.7rem] uppercase tracking-[0.28em] text-champagne">
           Guest lifecycle specials
@@ -16,7 +16,7 @@ export function SpecialsBanner() {
         <div className="mt-5 grid gap-6 md:grid-cols-3">
           {items.map((item) => (
             <div key={item.label} className="animate-reveal">
-              <h3 className="font-display text-2xl text-silver">{item.label}</h3>
+              <h3 className="font-display text-2xl text-ink">{item.label}</h3>
               <p className="mt-2 text-sm leading-relaxed text-mist-muted">
                 {item.copy}
               </p>
