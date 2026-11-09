@@ -124,13 +124,22 @@ export function FleetGrid({
                       src={v.image}
                       alt={v.name}
                       fill
-                      className="object-cover opacity-80"
+                      className={
+                        v.imageKind === "segment-cutout"
+                          ? "object-contain object-center opacity-90"
+                          : "object-cover opacity-80"
+                      }
                       sizes="96px"
                     />
                   )}
                 </div>
                 <div>
                   <div className="font-display text-xl text-silver">{v.name}</div>
+                  {v.inventoryStatus === "verify_with_owners" && (
+                    <p className="mt-1 text-[0.65rem] uppercase tracking-[0.16em] text-champagne/80">
+                      Confirm with owners
+                    </p>
+                  )}
                   <p className="mt-1 line-clamp-2 text-sm text-mist-muted">{v.blurb}</p>
                   <p className="mt-1 text-[0.65rem] text-mist-muted/70">{rateFootnote(v)}</p>
                 </div>

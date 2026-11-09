@@ -12,8 +12,14 @@ export function getExotics(market = "maryland") {
     (v) =>
       v.category === "exotic" &&
       v.markets.includes(market) &&
-      v.inventoryStatus !== "candidate",
+      v.inventoryStatus !== "candidate" &&
+      v.inventoryStatus !== "verify_with_owners",
   );
+}
+
+/** Full editable inventory including verify-needed candidates. */
+export function getAllExotics() {
+  return fleet.filter((v) => v.category === "exotic");
 }
 
 export function getSprinters() {

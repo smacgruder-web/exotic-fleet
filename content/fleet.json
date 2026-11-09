@@ -93,8 +93,8 @@
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
-    "image": "/images/rs/logo.png",
-    "imageKind": "brand-mark",
+    "image": "/images/rs/segments/maserati-ghibli.jpg",
+    "imageKind": "segment-cutout",
     "tags": [
       "sedan",
       "self-drive",
@@ -102,8 +102,9 @@
     ],
     "passengers": 4,
     "drive": "self",
-    "photoQuality": "brand-mark",
-    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate."
+    "photoQuality": "archive",
+    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate.",
+    "photoNote": "Google AI Mode / saved page segment cutout (~200px source). Confirm unit match."
   },
   {
     "id": "rolls-royce-cullinan-miami",
@@ -117,8 +118,8 @@
     "dailyRate": 1300,
     "rateStatus": "archive_confirmed",
     "includedMiles": null,
-    "image": "/images/rs/logo.png",
-    "imageKind": "brand-mark",
+    "image": "/images/rs/segments/rolls-royce-cullinan-miami.jpg",
+    "imageKind": "segment-cutout",
     "tags": [
       "suv",
       "miami",
@@ -126,7 +127,8 @@
     ],
     "passengers": 5,
     "drive": "either",
-    "photoQuality": "brand-mark"
+    "photoQuality": "archive",
+    "photoNote": "Segment cutout placeholder until Miami unit photo arrives."
   },
   {
     "id": "rolls-royce-cullinan-black-badge",
@@ -142,8 +144,8 @@
     "dailyRate": 2000,
     "rateStatus": "archive_confirmed",
     "includedMiles": null,
-    "image": "/images/rs/logo.png",
-    "imageKind": "brand-mark",
+    "image": "/images/rs/segments/rolls-royce-cullinan-black-badge.jpg",
+    "imageKind": "segment-cutout",
     "tags": [
       "suv",
       "black-badge",
@@ -152,7 +154,8 @@
     ],
     "passengers": 5,
     "drive": "either",
-    "photoQuality": "brand-mark"
+    "photoQuality": "archive",
+    "photoNote": "Segment cutout — not Cullinan garage quality. Confirm Black Badge unit."
   },
   {
     "id": "aston-martin-db11",
@@ -365,5 +368,62 @@
     "passengers": 6,
     "drive": "chauffeur",
     "photoQuality": "supporting"
+  },
+  {
+    "id": "rolls-royce-spectre",
+    "name": "Rolls-Royce Spectre",
+    "category": "exotic",
+    "markets": [
+      "maryland",
+      "dc",
+      "virginia",
+      "miami"
+    ],
+    "tagline": "Verify inventory · coupe EV",
+    "blurb": "Rolls-Royce Spectre appeared in the saved exotic-cars segment pack. Confirm with concierge whether this unit is bookable through RS Luxury before listing rates or promoting photography.",
+    "dailyRate": null,
+    "rateStatus": "price_on_request",
+    "includedMiles": null,
+    "image": "/images/rs/segments/rolls-royce-spectre.jpg",
+    "imageKind": "segment-cutout",
+    "photoQuality": "archive",
+    "photoNote": "Appeared in saved EXOTIC CARS segments (Google AI Mode cutouts / Miller Motorcars-adjacent). Confirm whether this is active RS inventory before promoting.",
+    "inventoryStatus": "verify_with_owners",
+    "tags": [
+      "coupe",
+      "chauffeur-ready",
+      "anniversary"
+    ],
+    "passengers": 4,
+    "drive": "either"
+  },
+  {
+    "id": "rolls-royce-phantom",
+    "name": "Rolls-Royce Phantom",
+    "category": "exotic",
+    "markets": [
+      "maryland",
+      "dc",
+      "virginia",
+      "miami"
+    ],
+    "tagline": "Verify inventory · flagship sedan",
+    "blurb": "Rolls-Royce Phantom appeared in the saved exotic-cars segment pack. Confirm with concierge whether this flagship sedan is active RS inventory.",
+    "dailyRate": null,
+    "rateStatus": "price_on_request",
+    "includedMiles": null,
+    "image": "/images/rs/segments/rolls-royce-phantom.jpg",
+    "imageKind": "segment-cutout",
+    "photoQuality": "archive",
+    "photoNote": "Appeared in saved EXOTIC CARS segments (Google AI Mode cutouts / Miller Motorcars-adjacent). Confirm whether this is active RS inventory before promoting.",
+    "inventoryStatus": "verify_with_owners",
+    "tags": [
+      "sedan",
+      "chauffeur-ready",
+      "wedding",
+      "corporate"
+    ],
+    "passengers": 4,
+    "drive": "either"
   }
 ]

@@ -13,15 +13,17 @@ export type FleetVehicle = {
   rateStatus: RateStatus;
   includedMiles: number | null;
   image: string;
-  imageKind?: "photo" | "brand-mark";
+  imageKind?: "photo" | "brand-mark" | "segment-cutout";
   photoQuality?: "hero" | "supporting" | "archive" | "brand-mark";
+  photoNote?: string;
+  rateNote?: string;
   gallery?: string[];
   tagline?: string;
   details?: string;
   tags: string[];
   passengers: number;
   drive: DriveMode;
-  inventoryStatus?: "active" | "candidate";
+  inventoryStatus?: "active" | "candidate" | "verify_with_owners";
 };
 
 export type LeadStatus =

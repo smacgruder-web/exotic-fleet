@@ -37,6 +37,7 @@ function scoreVehicle(v: FleetVehicle, a: MatchAnswers) {
   }
   if (a.budgetBand === "open" && v.dailyRate != null) score += 1;
   if (v.inventoryStatus === "candidate") score -= 2;
+  if (v.inventoryStatus === "verify_with_owners") score -= 4;
   return score;
 }
 
