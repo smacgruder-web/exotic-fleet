@@ -57,7 +57,7 @@
       "/images/rs/urus-shop.jpg"
     ],
     "imageKind": "photo",
-    "photoNote": "Lifestyle reference photography (1376×768). Confirm finish matches current RS unit (archive listed white/red)."
+    "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch."
   },
   {
     "id": "rolls-royce-ghost",
@@ -91,7 +91,7 @@
       "/images/rs/ghost-shop.jpg"
     ],
     "imageKind": "photo",
-    "photoNote": "Lifestyle reference photography. Archive unit story: lustrous black."
+    "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch."
   },
   {
     "id": "maserati-ghibli",
@@ -118,7 +118,7 @@
     "drive": "self",
     "photoQuality": "supporting",
     "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate.",
-    "photoNote": "Lifestyle reference photography (cobalt). Confirm current RS finish.",
+    "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch.",
     "gallery": [
       "/images/rs/lifestyle/ghibli-coastal-blue.jpg",
       "/images/rs/lifestyle/ghibli-mansion-blue.jpg"
@@ -146,7 +146,7 @@
     "passengers": 5,
     "drive": "either",
     "photoQuality": "supporting",
-    "photoNote": "Lifestyle / Miami-coded white Cullinan photography.",
+    "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch.",
     "gallery": [
       "/images/rs/lifestyle/cullinan-miami-doors-sunset.jpg",
       "/images/rs/lifestyle/cullinan-miami-coastal.jpg",
@@ -179,7 +179,7 @@
     "passengers": 5,
     "drive": "either",
     "photoQuality": "supporting",
-    "photoNote": "Lifestyle black Cullinan reference (red calipers). Confirm Black Badge trim.",
+    "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch.",
     "gallery": [
       "/images/rs/lifestyle/cullinan-black-night-urban.jpg",
       "/images/rs/lifestyle/cullinan-black-modern-house.jpg"
@@ -216,7 +216,7 @@
       "/images/rs/db11.jpg"
     ],
     "imageKind": "photo",
-    "photoNote": "Lifestyle reference photography."
+    "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch."
   },
   {
     "id": "rolls-royce-wraith",
@@ -248,7 +248,7 @@
       "/images/rs/wraith.jpg"
     ],
     "imageKind": "photo",
-    "photoNote": "Lifestyle two-tone Wraith reference. Confirm current RS finish."
+    "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch."
   },
   {
     "id": "bentley-bentayga",
@@ -280,7 +280,7 @@
       "/images/rs/bentayga.jpg"
     ],
     "imageKind": "photo",
-    "photoNote": "Lifestyle British-racing-green Bentayga reference. Confirm current RS finish."
+    "photoNote": "Exotic lifestyle PLACEHOLDER — not final RS unit photography. Replace with garage/lot shots of the actual chassis before launch."
   },
   {
     "id": "bentley-continental-gt-v8s",

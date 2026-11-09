@@ -86,6 +86,11 @@ export function FleetGrid({
                   sizes="(max-width:768px) 100vw, 50vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/20 to-transparent" />
+                {v.photoNote?.toUpperCase().includes("PLACEHOLDER") && (
+                  <span className="absolute left-3 top-3 bg-ink/80 px-2 py-1 text-[0.6rem] uppercase tracking-[0.16em] text-mist">
+                    Reference photo
+                  </span>
+                )}
               </div>
               <div className="p-5">
                 {v.tagline && (
