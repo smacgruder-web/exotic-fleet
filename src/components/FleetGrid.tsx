@@ -25,8 +25,8 @@ export function FleetGrid({
       </p>
       <h2 className="mt-3 font-display text-4xl text-silver md:text-5xl">{title}</h2>
       <p className="mt-3 max-w-2xl text-sm text-mist-muted">
-        We lead with photography that earns the screen. Archive thumbnails stay compact —
-        inquire for current unit photos on any price-on-request vehicle.
+        Featured photography leads. Compact list is reserved for units still awaiting
+        stronger unit photos — inquire for current availability and finish.
       </p>
 
       {hero.map((v) => (
@@ -77,18 +77,23 @@ export function FleetGrid({
               key={v.id}
               className="overflow-hidden border border-ink-line bg-ink-soft/50"
             >
-              <div className="relative aspect-[16/10]">
+              <div className="relative aspect-[16/9]">
                 <Image
                   src={v.image}
                   alt={v.name}
                   fill
-                  className="object-cover"
+                  className="object-cover object-center"
                   sizes="(max-width:768px) 100vw, 50vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/20 to-transparent" />
               </div>
               <div className="p-5">
-                <h3 className="font-display text-2xl text-white">{v.name}</h3>
+                {v.tagline && (
+                  <p className="text-[0.65rem] uppercase tracking-[0.2em] text-cobalt-glow">
+                    {v.tagline}
+                  </p>
+                )}
+                <h3 className="mt-1 font-display text-2xl text-white">{v.name}</h3>
                 <p className="mt-1 text-sm text-champagne">{formatRate(v)}</p>
                 <p className="mt-2 text-sm text-mist-muted">{v.blurb}</p>
                 <Link

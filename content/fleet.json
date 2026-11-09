@@ -41,7 +41,7 @@
     "dailyRate": 1700,
     "rateStatus": "archive_confirmed",
     "includedMiles": 100,
-    "image": "/images/rs/urus-shop.jpg",
+    "image": "/images/rs/lifestyle/urus-coastal-gunmetal.jpg",
     "tags": [
       "suv",
       "self-drive",
@@ -50,7 +50,14 @@
     ],
     "passengers": 5,
     "drive": "self",
-    "photoQuality": "archive"
+    "photoQuality": "supporting",
+    "gallery": [
+      "/images/rs/lifestyle/urus-coastal-gunmetal.jpg",
+      "/images/rs/lifestyle/urus-mansion-matte.jpg",
+      "/images/rs/urus-shop.jpg"
+    ],
+    "imageKind": "photo",
+    "photoNote": "Lifestyle reference photography (1376×768). Confirm finish matches current RS unit (archive listed white/red)."
   },
   {
     "id": "rolls-royce-ghost",
@@ -67,7 +74,7 @@
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
-    "image": "/images/rs/ghost-shop.jpg",
+    "image": "/images/rs/lifestyle/ghost-night-city.jpg",
     "tags": [
       "sedan",
       "chauffeur-ready",
@@ -76,8 +83,15 @@
     ],
     "passengers": 4,
     "drive": "either",
-    "photoQuality": "archive",
-    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate."
+    "photoQuality": "supporting",
+    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate.",
+    "gallery": [
+      "/images/rs/lifestyle/ghost-night-city.jpg",
+      "/images/rs/lifestyle/ghost-mansion-black.jpg",
+      "/images/rs/ghost-shop.jpg"
+    ],
+    "imageKind": "photo",
+    "photoNote": "Lifestyle reference photography. Archive unit story: lustrous black."
   },
   {
     "id": "maserati-ghibli",
@@ -93,8 +107,8 @@
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
-    "image": "/images/rs/segments/maserati-ghibli.jpg",
-    "imageKind": "segment-cutout",
+    "image": "/images/rs/lifestyle/ghibli-coastal-blue.jpg",
+    "imageKind": "photo",
     "tags": [
       "sedan",
       "self-drive",
@@ -102,9 +116,13 @@
     ],
     "passengers": 4,
     "drive": "self",
-    "photoQuality": "archive",
+    "photoQuality": "supporting",
     "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate.",
-    "photoNote": "Google AI Mode / saved page segment cutout (~200px source). Confirm unit match."
+    "photoNote": "Lifestyle reference photography (cobalt). Confirm current RS finish.",
+    "gallery": [
+      "/images/rs/lifestyle/ghibli-coastal-blue.jpg",
+      "/images/rs/lifestyle/ghibli-mansion-blue.jpg"
+    ]
   },
   {
     "id": "rolls-royce-cullinan-miami",
@@ -118,8 +136,8 @@
     "dailyRate": 1300,
     "rateStatus": "archive_confirmed",
     "includedMiles": null,
-    "image": "/images/rs/segments/rolls-royce-cullinan-miami.jpg",
-    "imageKind": "segment-cutout",
+    "image": "/images/rs/lifestyle/cullinan-miami-doors-sunset.jpg",
+    "imageKind": "photo",
     "tags": [
       "suv",
       "miami",
@@ -127,8 +145,14 @@
     ],
     "passengers": 5,
     "drive": "either",
-    "photoQuality": "archive",
-    "photoNote": "Segment cutout placeholder until Miami unit photo arrives."
+    "photoQuality": "supporting",
+    "photoNote": "Lifestyle / Miami-coded white Cullinan photography.",
+    "gallery": [
+      "/images/rs/lifestyle/cullinan-miami-doors-sunset.jpg",
+      "/images/rs/lifestyle/cullinan-miami-coastal.jpg",
+      "/images/rs/lifestyle/cullinan-white-mansion.jpg",
+      "/images/rs/lifestyle/cullinan-miami-doors-alt.jpg"
+    ]
   },
   {
     "id": "rolls-royce-cullinan-black-badge",
@@ -144,8 +168,8 @@
     "dailyRate": 2000,
     "rateStatus": "archive_confirmed",
     "includedMiles": null,
-    "image": "/images/rs/segments/rolls-royce-cullinan-black-badge.jpg",
-    "imageKind": "segment-cutout",
+    "image": "/images/rs/lifestyle/cullinan-black-night-urban.jpg",
+    "imageKind": "photo",
     "tags": [
       "suv",
       "black-badge",
@@ -154,8 +178,12 @@
     ],
     "passengers": 5,
     "drive": "either",
-    "photoQuality": "archive",
-    "photoNote": "Segment cutout — not Cullinan garage quality. Confirm Black Badge unit."
+    "photoQuality": "supporting",
+    "photoNote": "Lifestyle black Cullinan reference (red calipers). Confirm Black Badge trim.",
+    "gallery": [
+      "/images/rs/lifestyle/cullinan-black-night-urban.jpg",
+      "/images/rs/lifestyle/cullinan-black-modern-house.jpg"
+    ]
   },
   {
     "id": "aston-martin-db11",
@@ -171,7 +199,7 @@
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
-    "image": "/images/rs/db11.jpg",
+    "image": "/images/rs/lifestyle/db11-mountain-dusk.jpg",
     "tags": [
       "coupe",
       "self-drive",
@@ -179,8 +207,16 @@
     ],
     "passengers": 2,
     "drive": "self",
-    "photoQuality": "archive",
-    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate."
+    "photoQuality": "supporting",
+    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate.",
+    "gallery": [
+      "/images/rs/lifestyle/db11-mountain-dusk.jpg",
+      "/images/rs/lifestyle/db11-mountain-bluehour.jpg",
+      "/images/rs/lifestyle/db11-mansion-grey.jpg",
+      "/images/rs/db11.jpg"
+    ],
+    "imageKind": "photo",
+    "photoNote": "Lifestyle reference photography."
   },
   {
     "id": "rolls-royce-wraith",
@@ -196,7 +232,7 @@
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
-    "image": "/images/rs/wraith.jpg",
+    "image": "/images/rs/lifestyle/wraith-montecarlo.jpg",
     "tags": [
       "coupe",
       "self-drive",
@@ -204,8 +240,15 @@
     ],
     "passengers": 4,
     "drive": "self",
-    "photoQuality": "archive",
-    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate."
+    "photoQuality": "supporting",
+    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate.",
+    "gallery": [
+      "/images/rs/lifestyle/wraith-montecarlo.jpg",
+      "/images/rs/lifestyle/wraith-mansion-twotone.jpg",
+      "/images/rs/wraith.jpg"
+    ],
+    "imageKind": "photo",
+    "photoNote": "Lifestyle two-tone Wraith reference. Confirm current RS finish."
   },
   {
     "id": "bentley-bentayga",
@@ -221,7 +264,7 @@
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
-    "image": "/images/rs/bentayga.jpg",
+    "image": "/images/rs/lifestyle/bentayga-mansion-green.jpg",
     "tags": [
       "suv",
       "family",
@@ -229,8 +272,15 @@
     ],
     "passengers": 5,
     "drive": "either",
-    "photoQuality": "archive",
-    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate."
+    "photoQuality": "supporting",
+    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate.",
+    "gallery": [
+      "/images/rs/lifestyle/bentayga-mansion-green.jpg",
+      "/images/rs/lifestyle/bentayga-castle-green.jpg",
+      "/images/rs/bentayga.jpg"
+    ],
+    "imageKind": "photo",
+    "photoNote": "Lifestyle British-racing-green Bentayga reference. Confirm current RS finish."
   },
   {
     "id": "bentley-continental-gt-v8s",
