@@ -8,8 +8,8 @@
       "dc",
       "virginia"
     ],
-    "tagline": "Flagship SUV · coach doors",
-    "blurb": "Rolls-Royce Cullinan — ultra-luxury SUV presence for executive arrivals, weddings, and red-carpet transit across the DMV. Electric blue garage unit featured on site; confirm current chassis and finish with concierge.",
+    "tagline": "Coach doors · electric blue",
+    "blurb": "Rolls-Royce Cullinan — ultra-luxury SUV presence for executive arrivals, weddings, and red-carpet transit. Featured electric-blue garage unit; confirm finish and availability. Fleet sheet also lists Cullinan (Miami) and Cullinan Black Badge.",
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
@@ -34,10 +34,10 @@
       "dc",
       "virginia"
     ],
-    "tagline": "Space and speed",
-    "blurb": "The 2021 Lamborghini Urus with a striking widebody kit — white exterior, red cabin, flared arches, and Y-shaped LED glare. National Harbor’s showpiece SUV for weekends that need to be seen.",
+    "tagline": "2023 · widebody SUV",
+    "blurb": "Unleash the 2023 Lamborghini Urus — a breathtaking fusion of robust SUV functionality and supercar spirit. Its widebody kit promises an enhanced driving experience and a dramatic road presence.",
     "details": "Archive product story: mesmerizing white exterior as a canvas for Lamborghini’s sculptural lines; widebody kit widens the stance with meticulously crafted flared wheel arches; red leather interior with carbon fiber and Alcantara accents.",
-    "yearNote": "Product post describes a 2021 example (some list cards said 2023); confirm current chassis with concierge.",
+    "yearNote": "Fleet sheet lists 2023; earlier product post referenced a 2021 example. Confirm current chassis with concierge.",
     "dailyRate": 1700,
     "rateStatus": "archive_confirmed",
     "includedMiles": 100,
@@ -61,8 +61,8 @@
       "dc",
       "virginia"
     ],
-    "tagline": "2023 · luxury sedan",
-    "blurb": "2023 Rolls-Royce Ghost — handcrafted V12 sedan with optional chauffeur for ceremonial evenings, executive travel, and secure transit across DC, Maryland, and Virginia.",
+    "tagline": "2023 · luxury personified",
+    "blurb": "The 2023 Rolls-Royce Ghost is luxury personified. Crafted for those who appreciate the finer things, it promises a sublime journey marked by elegance and comfort, turning every ride into a special occasion.",
     "details": "Archive product story: lustrous black exterior; hand-stitched black leather; starlight headliner; wood veneers and intuitive technology. Available across DC, Maryland, and Virginia.",
     "dailyRate": null,
     "rateStatus": "price_on_request",
@@ -76,19 +76,20 @@
     ],
     "passengers": 4,
     "drive": "either",
-    "photoQuality": "archive"
+    "photoQuality": "archive",
+    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate."
   },
   {
     "id": "maserati-ghibli",
-    "name": "Maserati Ghibli",
+    "name": "2023 Maserati Ghibli",
     "category": "exotic",
     "markets": [
       "maryland",
       "dc",
       "virginia"
     ],
-    "tagline": "Italian grand touring",
-    "blurb": "Maserati Ghibli — Italian grand-tourer energy for city dinners and coastal drives without the ultra-SUV footprint.",
+    "tagline": "2023 · Italian elegance",
+    "blurb": "The 2023 Maserati Ghibli embodies Italian elegance and powerful performance. Meticulous design and compelling presence make every journey a captivating tale of style and performance.",
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
@@ -101,17 +102,18 @@
     ],
     "passengers": 4,
     "drive": "self",
-    "photoQuality": "brand-mark"
+    "photoQuality": "brand-mark",
+    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate."
   },
   {
     "id": "rolls-royce-cullinan-miami",
-    "name": "Rolls-Royce Cullinan (Miami)",
+    "name": "2023 Rolls-Royce Cullinan (Miami)",
     "category": "exotic",
     "markets": [
       "miami"
     ],
-    "tagline": "Miami chapter",
-    "blurb": "Cullinan tagged for the Miami chapter — South Beach through Brickell. Request transfer or local pickup with concierge.",
+    "tagline": "2023 · Miami chapter",
+    "blurb": "Explore Miami in the epitome of luxury with the 2023 Rolls-Royce Cullinan. Exquisite craftsmanship and robust elegance make every journey an event of unmatched sophistication.",
     "dailyRate": 1300,
     "rateStatus": "archive_confirmed",
     "includedMiles": null,
@@ -136,7 +138,7 @@
       "virginia"
     ],
     "tagline": "2023 · Black Badge",
-    "blurb": "2023 Rolls-Royce Cullinan Black Badge — darker, sharper Cullinan presence for DMV arrivals that need absolute authority. Part of the exclusive Rolls-Royce lineup.",
+    "blurb": "Experience ultimate luxury in the 2023 Rolls-Royce Cullinan Black Badge — sophistication and formidable power that redefines extraordinary journeys with bold presence and remarkable performance.",
     "dailyRate": 2000,
     "rateStatus": "archive_confirmed",
     "includedMiles": null,
@@ -154,15 +156,15 @@
   },
   {
     "id": "aston-martin-db11",
-    "name": "Aston Martin DB11",
+    "name": "2023 Aston Martin DB11",
     "category": "exotic",
     "markets": [
       "maryland",
       "dc",
       "virginia"
     ],
-    "tagline": "High-performance grand tourer",
-    "blurb": "Aston Martin DB11 — exclusive high-performance grand tourer for date nights, weekends, and arrivals that need presence without an SUV footprint.",
+    "tagline": "2023 · grand touring",
+    "blurb": "Discover the thrill of the 2023 Aston Martin DB11 — a masterpiece of design and performance blending grand touring capability and agility for unforgettable journeys.",
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
@@ -174,7 +176,8 @@
     ],
     "passengers": 2,
     "drive": "self",
-    "photoQuality": "archive"
+    "photoQuality": "archive",
+    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate."
   },
   {
     "id": "rolls-royce-wraith",
@@ -185,8 +188,8 @@
       "dc",
       "virginia"
     ],
-    "tagline": "2023 · coupe drama",
-    "blurb": "2023 Rolls-Royce Wraith — grand-tourer coupe drama for nights when the destination is the drive. Concierge confirms availability across the DMV.",
+    "tagline": "2023 · timeless elegance",
+    "blurb": "Navigate in the timeless elegance of the 2023 Rolls-Royce Wraith. Luxurious design and powerful performance make each journey a sublime expression of sophistication and class.",
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
@@ -198,19 +201,20 @@
     ],
     "passengers": 4,
     "drive": "self",
-    "photoQuality": "archive"
+    "photoQuality": "archive",
+    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate."
   },
   {
     "id": "bentley-bentayga",
-    "name": "Bentley Bentayga",
+    "name": "2023 Bentley Bentayga",
     "category": "exotic",
     "markets": [
       "maryland",
       "dc",
       "virginia"
     ],
-    "tagline": "Ultra-luxury SUV",
-    "blurb": "Bentley Bentayga — ultra-luxury SUV for executive travel and chauffeur-ready group presence with private-lounge finish.",
+    "tagline": "2023 · refined power",
+    "blurb": "Embark on journeys of unparalleled luxury in the 2023 Bentley Bentayga. Extraordinary craftsmanship and potent performance turn every ride into a voyage of grandeur.",
     "dailyRate": null,
     "rateStatus": "price_on_request",
     "includedMiles": null,
@@ -222,7 +226,8 @@
     ],
     "passengers": 5,
     "drive": "either",
-    "photoQuality": "archive"
+    "photoQuality": "archive",
+    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate."
   },
   {
     "id": "bentley-continental-gt-v8s",
@@ -246,7 +251,8 @@
     ],
     "passengers": 4,
     "drive": "self",
-    "photoQuality": "archive"
+    "photoQuality": "archive",
+    "rateNote": "Fleet sheet showed Shopify installment/monthly UI — not a confirmed daily rate."
   },
   {
     "id": "mclaren-gt",
