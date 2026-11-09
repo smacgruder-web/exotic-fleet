@@ -10,14 +10,14 @@ export default function HomePage() {
       <section className="relative min-h-[100svh] overflow-hidden">
         <Image
           src={site.heroImage}
-          alt="RS Luxury McLaren GT"
+          alt="RS Luxury Rolls-Royce Cullinan"
           fill
           priority
-          className="object-cover animate-kenburns"
+          className="object-cover object-[center_45%] animate-kenburns"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/80 to-ink/30" />
-        <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-ink/45" />
+        <div className="absolute inset-0 bg-gradient-to-r from-ink/90 via-ink/55 to-ink/20" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-ink/40" />
 
         <div className="relative z-10 mx-auto flex min-h-[100svh] max-w-7xl flex-col justify-end px-5 pb-20 pt-28 md:px-8 md:pb-28">
           <Image
@@ -27,7 +27,7 @@ export default function HomePage() {
             height={64}
             className="animate-rise mb-4 opacity-90"
           />
-          <p className="animate-rise text-[0.72rem] uppercase tracking-[0.32em] text-champagne">
+          <p className="animate-rise text-[0.72rem] uppercase tracking-[0.32em] text-cobalt-glow">
             National Harbor · DMV · Miami
           </p>
           <h1 className="animate-rise mt-4 font-display text-[clamp(3.4rem,10vw,7rem)] leading-[0.9] tracking-[0.04em] text-silver">
@@ -35,7 +35,7 @@ export default function HomePage() {
           </h1>
           <p className="animate-rise mt-5 max-w-xl text-base leading-relaxed text-mist md:text-lg">
             {site.tagline} Maryland exotic rentals, Sprinter groups, and chauffeur
-            arrivals — curated for evenings that need presence.
+            arrivals — led by photography that belongs on the first screen.
           </p>
           <div className="animate-rise mt-8 flex flex-wrap gap-3">
             <Link
@@ -46,7 +46,7 @@ export default function HomePage() {
             </Link>
             <a
               href={`tel:${site.phoneTel}`}
-              className="border border-silver/40 px-6 py-3.5 text-[0.75rem] font-semibold uppercase tracking-[0.18em] text-silver hover:border-champagne hover:text-champagne"
+              className="border border-silver/40 px-6 py-3.5 text-[0.75rem] font-semibold uppercase tracking-[0.18em] text-silver hover:border-cobalt-glow hover:text-cobalt-glow"
             >
               Call {site.phone}
             </a>
@@ -54,31 +54,31 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto grid max-w-7xl gap-10 px-5 py-20 md:grid-cols-3 md:px-8">
+      <section className="mx-auto grid max-w-7xl gap-8 px-5 py-20 md:grid-cols-3 md:px-8">
         {[
           {
             title: "Exotics",
-            copy: "Urus widebody, Ghost, Cullinan Black Badge, Bentley, Aston, McLaren — self-drive showpieces rooted at National Harbor.",
+            copy: "Cullinan, Urus, Ghost, Bentley, Aston, McLaren — National Harbor rooted, concierge confirmed.",
             href: "/maryland-exotic-car-rentals",
-            image: "/images/rs/urus-shop.jpg",
+            image: "/images/rs/cullinan-blue-garage.jpg",
           },
           {
             title: "Sprinters",
-            copy: "Presidential, Ultimate, and Executive builds with captain’s chairs, onboard comfort, and private drivers for groups.",
+            copy: "Presidential, Ultimate, and Executive builds with captain’s chairs and private drivers.",
             href: "/sprinter-vans",
-            image: "/images/rs/sprinter-shop.jpg",
+            image: "/images/rs/img0208.jpg",
           },
           {
             title: "Chauffeur",
             copy: "Optional chauffeur — including armed chauffeur routing — across Maryland, DC, and Virginia.",
             href: "/luxury-chauffeur-service",
-            image: "/images/rs/ghost-shop.jpg",
+            image: "/images/rs/cabin-star.webp",
           },
         ].map((item) => (
           <Link
             key={item.title}
             href={item.href}
-            className="group overflow-hidden border border-ink-line transition hover:border-champagne"
+            className="group overflow-hidden border border-ink-line transition hover:border-cobalt-glow/50"
           >
             <div className="relative aspect-[5/3]">
               <Image
@@ -88,15 +88,13 @@ export default function HomePage() {
                 className="object-cover transition duration-700 group-hover:scale-105"
                 sizes="(max-width:768px) 100vw, 33vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/20 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/25 to-transparent" />
             </div>
             <div className="p-6">
               <h2 className="font-display text-3xl text-silver group-hover:text-white">
                 {item.title}
               </h2>
-              <p className="mt-3 text-sm leading-relaxed text-mist-muted">
-                {item.copy}
-              </p>
+              <p className="mt-3 text-sm leading-relaxed text-mist-muted">{item.copy}</p>
             </div>
           </Link>
         ))}

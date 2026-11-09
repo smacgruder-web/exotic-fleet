@@ -10,8 +10,8 @@ export default {
     extend: {
       colors: {
         ink: {
-          DEFAULT: "#0b0c0f",
-          soft: "#14161c",
+          DEFAULT: "#0a0b0e",
+          soft: "#12141a",
           line: "#2a2e38",
         },
         mist: {
@@ -20,7 +20,13 @@ export default {
         },
         silver: "#d7dbe3",
         champagne: "#c4a574",
-        signal: "#b11226",
+        /** Accent from the electric-blue Cullinan hero */
+        signal: "#1f5eff",
+        cobalt: {
+          DEFAULT: "#1f5eff",
+          deep: "#1439a8",
+          glow: "#6b93ff",
+        },
       },
       fontFamily: {
         display: ["var(--font-display)", "serif"],
@@ -28,12 +34,12 @@ export default {
       },
       backgroundImage: {
         asphalt:
-          "radial-gradient(1200px 600px at 70% 10%, rgba(177,18,38,0.18), transparent 55%), radial-gradient(900px 500px at 10% 80%, rgba(196,165,116,0.12), transparent 50%), linear-gradient(160deg, #0b0c0f 0%, #151821 45%, #0b0c0f 100%)",
+          "radial-gradient(1100px 560px at 75% 8%, rgba(31,94,255,0.22), transparent 55%), radial-gradient(900px 500px at 8% 85%, rgba(196,165,116,0.08), transparent 50%), linear-gradient(160deg, #0a0b0e 0%, #121722 45%, #0a0b0e 100%)",
       },
       keyframes: {
         kenburns: {
-          "0%": { transform: "scale(1.05) translate3d(0,0,0)" },
-          "100%": { transform: "scale(1.14) translate3d(-1.5%, 1%, 0)" },
+          "0%": { transform: "scale(1.04) translate3d(0,0,0)" },
+          "100%": { transform: "scale(1.12) translate3d(-1.2%, 0.8%, 0)" },
         },
         rise: {
           "0%": { opacity: "0", transform: "translateY(18px)" },

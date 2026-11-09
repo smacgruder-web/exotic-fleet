@@ -14,6 +14,7 @@ export type FleetVehicle = {
   includedMiles: number | null;
   image: string;
   imageKind?: "photo" | "brand-mark";
+  photoQuality?: "hero" | "supporting" | "archive" | "brand-mark";
   gallery?: string[];
   tagline?: string;
   details?: string;

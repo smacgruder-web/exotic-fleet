@@ -14,8 +14,8 @@ export default function ChauffeurPage() {
     <>
       <section className="relative min-h-[70svh] overflow-hidden">
         <Image
-          src="/images/rs/ghost-shop.jpg"
-          alt="Rolls-Royce Ghost chauffeur service"
+          src="/images/rs/cullinan-blue-garage.jpg"
+          alt="Rolls-Royce Cullinan chauffeur service"
           fill
           priority
           className="object-cover"

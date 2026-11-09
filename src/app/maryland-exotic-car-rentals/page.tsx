@@ -10,7 +10,7 @@ import { fleet, getExotics, site } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Maryland Exotic Car Rentals",
   description:
-    "RS Luxury Maryland exotic car rentals from National Harbor — Lamborghini Urus, Rolls-Royce, Bentley, Aston Martin, and more across the DMV.",
+    "RS Luxury Maryland exotic car rentals from National Harbor — Rolls-Royce Cullinan, Lamborghini Urus, Ghost, Bentley, and more across the DMV.",
 };
 
 export default function MarylandExoticPage() {
@@ -22,14 +22,14 @@ export default function MarylandExoticPage() {
       <section className="relative min-h-[100svh] overflow-hidden">
         <Image
           src={site.marylandHeroImage}
-          alt="Lamborghini Urus widebody — RS Luxury Maryland"
+          alt="Rolls-Royce Cullinan — RS Luxury Maryland"
           fill
           priority
-          className="object-cover animate-kenburns"
+          className="object-cover object-[center_40%] animate-kenburns"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/55 to-ink/35" />
-        <div className="absolute inset-0 bg-gradient-to-r from-ink/85 via-ink/35 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/45 to-ink/30" />
+        <div className="absolute inset-0 bg-gradient-to-r from-ink/80 via-ink/25 to-transparent" />
 
         <div className="relative z-10 mx-auto flex min-h-[100svh] max-w-7xl flex-col justify-end px-5 pb-20 pt-28 md:px-8 md:pb-28">
           <Image
@@ -50,10 +50,10 @@ export default function MarylandExoticPage() {
           </p>
           <div className="animate-rise mt-8 flex flex-wrap gap-3">
             <Link
-              href="/book"
+              href="/book?vehicle=rolls-royce-cullinan"
               className="bg-signal px-6 py-3.5 text-[0.75rem] font-semibold uppercase tracking-[0.18em] text-white"
             >
-              Book now
+              Book the Cullinan
             </Link>
             <a
               href={`tel:${site.phoneTel}`}
@@ -120,8 +120,8 @@ export default function MarylandExoticPage() {
         <div className="grid gap-0 border border-ink-line md:grid-cols-2">
           <div className="relative min-h-[280px]">
             <Image
-              src="/images/rs/sprinter-shop.jpg"
-              alt="RS Luxury Sprinter"
+              src="/images/rs/img0208.jpg"
+              alt="RS Luxury Sprinter interior"
               fill
               className="object-cover"
               sizes="50vw"
@@ -135,7 +135,7 @@ export default function MarylandExoticPage() {
               </p>
               <Link
                 href="/sprinter-vans"
-                className="mt-5 inline-block text-[0.72rem] uppercase tracking-[0.18em] text-champagne underline underline-offset-8"
+                className="mt-5 inline-block text-[0.72rem] uppercase tracking-[0.18em] text-cobalt-glow underline underline-offset-8"
               >
                 View Sprinters
               </Link>
@@ -143,8 +143,8 @@ export default function MarylandExoticPage() {
           </div>
           <div className="relative min-h-[280px]">
             <Image
-              src="/images/rs/ghost-shop.jpg"
-              alt="Rolls-Royce Ghost chauffeur"
+              src="/images/rs/cabin-star.webp"
+              alt="Starlight luxury cabin"
               fill
               className="object-cover"
               sizes="50vw"
@@ -154,11 +154,11 @@ export default function MarylandExoticPage() {
               <h2 className="font-display text-3xl text-silver">Prefer a chauffeur?</h2>
               <p className="mt-3 max-w-md text-sm text-mist">
                 Optional chauffeur — including carefully routed armed chauffeur requests —
-                for Ghost, Cullinan, and Sprinter itineraries.
+                for Cullinan, Ghost, and Sprinter itineraries.
               </p>
               <Link
                 href="/luxury-chauffeur-service"
-                className="mt-5 inline-block text-[0.72rem] uppercase tracking-[0.18em] text-champagne underline underline-offset-8"
+                className="mt-5 inline-block text-[0.72rem] uppercase tracking-[0.18em] text-cobalt-glow underline underline-offset-8"
               >
                 Chauffeur service
               </Link>

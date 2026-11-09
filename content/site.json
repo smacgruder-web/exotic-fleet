@@ -9,8 +9,9 @@
   "owners": "Jeannie and Randy",
   "logo": "/images/rs/logo.png",
   "logoLight": "/images/rs/logo-white.png",
-  "heroImage": "/images/rs/mclaren-shop.jpg",
-  "marylandHeroImage": "/images/rs/urus-shop.jpg",
+  "heroImage": "/images/rs/cullinan-blue-garage.jpg",
+  "marylandHeroImage": "/images/rs/cullinan-blue-garage.jpg",
+  "accentNote": "Palette pulled from the electric-blue Cullinan hero — garage concrete + cobalt.",
   "markets": [
     {
       "id": "maryland",

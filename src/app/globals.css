@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --background: #0b0c0f;
+  --background: #0a0b0e;
   --foreground: #f4f5f7;
-  --accent: #b11226;
+  --accent: #1f5eff;
   --champagne: #c4a574;
   --line: #2a2e38;
 }
@@ -22,7 +22,7 @@ body {
 }
 
 ::selection {
-  background: rgba(177, 18, 38, 0.35);
+  background: rgba(31, 94, 255, 0.35);
   color: #fff;
 }
 
