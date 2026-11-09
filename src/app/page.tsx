@@ -115,6 +115,47 @@ export default function HomePage() {
         </div>
       </section>
 
+      {site.prom?.enabled && (
+        <section className="mx-auto max-w-7xl px-5 py-16 md:px-8">
+          <div className="grid overflow-hidden border border-ink-line md:grid-cols-[1.05fr_0.95fr]">
+            <div className="relative min-h-[420px] bg-ink">
+              <Image
+                src={site.prom.image}
+                alt="RS Luxury exotic prom rental cars and chauffeur service"
+                fill
+                className="object-contain object-center p-4 md:p-6"
+                sizes="(max-width:768px) 100vw, 50vw"
+              />
+            </div>
+            <div className="flex flex-col justify-center bg-ink-soft/60 p-8 md:p-10">
+              <p className="text-[0.7rem] uppercase tracking-[0.28em] text-champagne">
+                Limited dates · DMV
+              </p>
+              <h2 className="mt-3 font-display text-4xl text-silver md:text-5xl">
+                {site.prom.headline}
+              </h2>
+              <p className="mt-4 text-sm leading-relaxed text-mist-muted md:text-base">
+                {site.prom.copy}
+              </p>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <Link
+                  href="/book"
+                  className="bg-signal px-6 py-3 text-[0.75rem] font-semibold uppercase tracking-[0.18em] text-white"
+                >
+                  Reserve prom
+                </Link>
+                <a
+                  href={`tel:${site.phoneTel}`}
+                  className="border border-silver/40 px-6 py-3 text-[0.75rem] uppercase tracking-[0.18em] text-silver"
+                >
+                  {site.phone}
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
       <SpecialsBanner />
       <FleetMatchChat />
 

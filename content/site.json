@@ -18,32 +18,60 @@
     "Weddings",
     "Red-carpet events",
     "Secure transit",
-    "Airport transfers"
+    "Airport transfers",
+    "Prom send-offs"
   ],
   "markets": [
     {
       "id": "maryland",
       "label": "Maryland",
       "href": "/maryland-exotic-car-rentals",
-      "areas": ["National Harbor", "Baltimore", "Annapolis", "Glen Burnie", "Ft. Washington", "La Plata"]
+      "areas": [
+        "National Harbor",
+        "Baltimore",
+        "Annapolis",
+        "Glen Burnie",
+        "Ft. Washington",
+        "La Plata"
+      ]
     },
     {
       "id": "dc",
       "label": "Washington DC",
       "href": "/book",
-      "areas": ["NE", "NW", "SW", "Capitol Hill", "H Street", "U Street"]
+      "areas": [
+        "NE",
+        "NW",
+        "SW",
+        "Capitol Hill",
+        "H Street",
+        "U Street"
+      ]
     },
     {
       "id": "virginia",
       "label": "Virginia",
       "href": "/book",
-      "areas": ["Vienna", "Alexandria", "Tysons", "Herndon", "Arlington", "Mt. Vernon"]
+      "areas": [
+        "Vienna",
+        "Alexandria",
+        "Tysons",
+        "Herndon",
+        "Arlington",
+        "Mt. Vernon"
+      ]
     },
     {
       "id": "miami",
       "label": "Miami",
       "href": "/book",
-      "areas": ["South Beach", "Wynwood", "Coconut Grove", "Little Havana", "Brickell"]
+      "areas": [
+        "South Beach",
+        "Wynwood",
+        "Coconut Grove",
+        "Little Havana",
+        "Brickell"
+      ]
     }
   ],
   "testimonials": [
@@ -61,5 +89,12 @@
     }
   ],
   "marylandPitch": "Elite exotic and chauffeur service from National Harbor — Rolls-Royce, Bentley, Aston Martin, McLaren, and Presidential Sprinters for executive travel, weddings, red-carpet nights, and secure transit across Maryland and the wider DMV.",
-  "experiencePitch": "A premium fleet of high-performance exotics and hyper-luxury multi-passenger vehicles, staged with concierge detail so every arrival feels intentional — from Capitol Hill dinners to Miami chapter weekends."
+  "experiencePitch": "A premium fleet of high-performance exotics and hyper-luxury multi-passenger vehicles, staged with concierge detail so every arrival feels intentional — from Capitol Hill dinners to Miami chapter weekends.",
+  "prom": {
+    "enabled": true,
+    "headline": "Exotic prom rental cars & chauffeur service",
+    "copy": "Now booking Washington DC, Maryland, and Northern Virginia. Red-carpet arrivals, luxury interiors, professional on-time service. Limited prom dates — secure yours now.",
+    "image": "/images/rs/ig-prom-booking.jpg",
+    "source": "https://www.instagram.com/p/DUzgt0ljeFb/"
+  }
 }
